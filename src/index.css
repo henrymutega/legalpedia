@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 98%;
+    --foreground: 220 40% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 13%;
+
+    --primary: 220 60% 15%;
+    --primary-foreground: 43 80% 65%;
+
+    --secondary: 220 25% 92%;
+    --secondary-foreground: 220 40% 13%;
+
+    --muted: 220 20% 95%;
+    --muted-foreground: 220 15% 46%;
+
+    --accent: 43 80% 55%;
+    --accent-foreground: 220 60% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 43 80% 55%;
+
+    --radius: 0.5rem;
+
+    --navy: 220 60% 15%;
+    --navy-light: 220 45% 25%;
+    --gold: 43 80% 55%;
+    --gold-light: 43 70% 70%;
+    --gold-dark: 43 85% 42%;
+    --cream: 40 30% 96%;
+
+    --hero-gradient: linear-gradient(135deg, hsl(220 60% 12%), hsl(220 50% 20%));
+    --gold-gradient: linear-gradient(135deg, hsl(43 80% 55%), hsl(43 70% 65%));
+    --overlay: linear-gradient(180deg, hsla(220, 60%, 10%, 0.7), hsla(220, 60%, 10%, 0.4));
+
+    --shadow-soft: 0 4px 24px -4px hsla(220, 60%, 15%, 0.08);
+    --shadow-card: 0 8px 32px -8px hsla(220, 60%, 15%, 0.12);
+    --shadow-gold: 0 4px 20px -4px hsla(43, 80%, 55%, 0.3);
+
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+  .text-gradient-gold {
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-navy-gradient {
+    background: var(--hero-gradient);
+  }
+  .bg-overlay {
+    background: var(--overlay);
+  }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slide-in-left {
+  from { opacity: 0; transform: translateX(-32px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out both;
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.6s ease-out both;
+}
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-400 { animation-delay: 0.4s; }

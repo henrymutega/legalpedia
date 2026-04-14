@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1": "Justice. Integrity. Excellence.",
+    "slide2": "Protecting Your Rights with Unwavering Dedication",
+    "slide3": "Trusted Legal Partners for Over 20 Years",
+    "subtitle": "We provide expert legal counsel and representation across a wide range of practice areas, committed to achieving the best outcomes for our clients.",
+    "cta_consult": "Book Consultation",
+    "cta_services": "View Services"
+  },
+  "home": {
+    "intro_title": "A Legacy of Legal Excellence",
+    "intro_text": "Founded in 2003, LegalPedia has built a reputation for delivering exceptional legal services with integrity and dedication. We combine deep legal expertise with a client-centered approach to achieve outstanding results.",
+    "services_title": "Our Practice Areas",
+    "testimonials_title": "What Our Clients Say"
+  },
+  "about": {
+    "title": "About LegalPedia",
+    "story_title": "Our Story",
+    "story": "LegalPedia was founded on a simple but powerful belief: that every client deserves honest, dedicated, and results-driven legal representation. What began as a small practice driven by integrity has grown steadily into a trusted name in the legal community.",
+    "story_2": "Over the years, we have earned the confidence of individuals and businesses alike — not through grand promises, but through consistent results, transparent communication, and a genuine commitment to our clients' well-being.",
+    "mission_title": "Our Mission",
+    "mission": "To deliver the highest quality legal services while maintaining the trust, integrity, and personal attention that our clients deserve.",
+    "vision_title": "Our Vision",
+    "vision": "To be the leading legal platform recognized for legal innovation, client satisfaction, and community impact.",
+    "team_title": "Our Legal Team",
+    "timeline_title": "Our Growth Journey",
+    "timeline": [
+      { "year": "2015", "title": "Foundation", "desc": "LegalPedia was established with a vision to provide accessible, high-quality legal services." },
+      { "year": "2017", "title": "Building Trust", "desc": "Expanded our client base through consistent results and word-of-mouth referrals." },
+      { "year": "2019", "title": "Service Expansion", "desc": "Added intellectual property and employment law to our practice areas." },
+      { "year": "2021", "title": "Digital Transformation", "desc": "Launched digital client services and AI-powered legal assistance." },
+      { "year": "2023", "title": "Regional Recognition", "desc": "Recognized as one of the region's most trusted legal institutions." },
+      { "year": "2026", "title": "Present Day", "desc": "Continuing to grow with a dedicated team serving clients across multiple practice areas." }
+    ]
+  },
+  "services": {
+    "title": "Legal Services",
+    "subtitle": "Comprehensive legal solutions tailored to your needs",
+    "learn_more": "Learn More",
+    "related": "Related Services",
+    "benefits": "Key Benefits",
+    "contact_lawyer": "Contact a Lawyer",
+    "items": {
+      "corporate": {
+        "title": "Corporate Law",
+        "short": "Expert guidance for business formation, governance, mergers, and acquisitions.",
+        "full": "Our corporate law team provides comprehensive legal support for businesses at every stage. From entity formation and corporate governance to complex mergers and acquisitions, we help organizations navigate the legal landscape with confidence.",
+        "benefits": ["Strategic business structuring", "Risk mitigation", "Regulatory compliance", "M&A advisory"]
+      },
+      "litigation": {
+        "title": "Civil Litigation",
+        "short": "Aggressive representation in commercial disputes and civil proceedings.",
+        "full": "When disputes arise, our litigation team is prepared to protect your interests vigorously. We handle complex commercial litigation, contract disputes, and civil proceedings with a strategic approach designed to achieve favorable outcomes.",
+        "benefits": ["Experienced trial attorneys", "Strategic case management", "Alternative dispute resolution", "Cost-effective litigation"]
+      },
+      "ip": {
+        "title": "Intellectual Property",
+        "short": "Protecting your innovations, trademarks, copyrights, and trade secrets.",
+        "full": "Innovation deserves protection. Our IP attorneys help clients secure and defend their intellectual property rights, including patents, trademarks, copyrights, and trade secrets across all industries.",
+        "benefits": ["Patent prosecution", "Trademark registration", "Copyright protection", "IP portfolio management"]
+      },
+      "realestate": {
+        "title": "Real Estate Law",
+        "short": "Comprehensive legal services for property transactions and development.",
+        "full": "Our real estate practice covers residential and commercial transactions, land use and zoning, construction law, and property disputes. We guide clients through every aspect of real estate dealings.",
+        "benefits": ["Transaction support", "Title review", "Zoning compliance", "Lease negotiation"]
+      },
+      "family": {
+        "title": "Family Law",
+        "short": "Compassionate counsel for divorce, custody, and family matters.",
+        "full": "Family legal matters require sensitivity and expertise. Our family law attorneys provide compassionate representation in divorce, child custody, adoption, and prenuptial agreements.",
+        "benefits": ["Mediation services", "Child advocacy", "Asset protection", "Confidential handling"]
+      },
+      "employment": {
+        "title": "Employment Law",
+        "short": "Protecting employer and employee rights in the workplace.",
+        "full": "We advise both employers and employees on workplace legal issues including discrimination, wrongful termination, employment contracts, and regulatory compliance.",
+        "benefits": ["Policy development", "Dispute resolution", "Compliance auditing", "Contract negotiation"]
+      }
+    }
+  },
+  "publications": {
+    "title": "Publications & Resources",
+    "subtitle": "Stay informed with our latest legal insights and research",
+    "download": "Download",
+    "filter_all": "All",
+    "filter_news": "News",
+    "filter_legal": "Legal",
+    "filter_research": "Research"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our legal team",
+    "form_name": "Full Name",
+    "form_email": "Email Address",
+    "form_subject": "Subject",
+    "form_message": "Your Message",
+    "form_submit": "Send Message",
+    "office_title": "Our Office",
+    "address": "123 Justice Avenue, Suite 500, New York, NY 10001",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@legalpedia.com",
+    "hours": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "chatbot_title": "AI Legal Assistant",
+    "chatbot_placeholder": "Our AI assistant will be available soon to answer your legal questions 24/7."
+  },
+  "footer": {
+    "description": "Delivering exceptional legal services with integrity, dedication, and a commitment to justice for over 20 years.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "rights": "All rights reserved."
+  },
+  "userFlow": {
+    "title": "Your Legal Journey",
+    "subtitle": "A clear, step-by-step process to resolve your legal matters with confidence.",
+    "cta_title": "Start Your Legal Journey Today",
+    "cta_subtitle": "Our experienced team is ready to guide you through every step.",
+    "cta_button": "Talk to a Lawyer",
+    "steps": [
+      { "title": "Visit Our Platform", "description": "Explore our services online", "detail": "Browse our website to learn about our practice areas, team, and how we can help with your legal needs." },
+      { "title": "Select Your Issue", "description": "Identify the right service", "detail": "Choose from corporate law, litigation, IP, real estate, family law, or employment law based on your situation." },
+      { "title": "Review Details", "description": "Understand your options", "detail": "Read detailed information about each service, including benefits, process, and what to expect." },
+      { "title": "Engage With Us", "description": "Chat or contact directly", "detail": "Use our AI legal assistant for quick answers, or reach out directly to schedule a consultation." },
+      { "title": "Submit Inquiry", "description": "Share your case details", "detail": "Fill out our contact form or upload relevant documents so our team can review your situation." },
+      { "title": "Lawyer Reviews", "description": "Expert evaluation", "detail": "A qualified lawyer reviews your case, researches applicable law, and prepares a tailored strategy." },
+      { "title": "Receive Solution", "description": "Get your legal resolution", "detail": "Receive a comprehensive legal solution, ongoing support, and guidance for next steps." }
+    ]
+  },
+  "chatbot": {
+    "title": "AI Legal Assistant",
+    "typing": "Typing...",
+    "online": "Online",
+    "placeholder": "Type a message...",
+    "action_services": "📋 View Services",
+    "action_services_msg": "What legal services do you offer?",
+    "action_documents": "📄 Download Documents",
+    "action_documents_msg": "How can I access your legal publications and documents?",
+    "action_contact": "📞 Contact a Lawyer",
+    "action_contact_msg": "I would like to speak with a lawyer about my case."
+  },
+  "testimonials": [
+    { "name": "James Morrison", "role": "CEO, TechVentures Inc.", "text": "Outstanding legal representation. Their team handled our corporate restructuring with exceptional professionalism and attention to detail." },
+    { "name": "Sarah Chen", "role": "Real Estate Developer", "text": "I've worked with many law firms, but none compare to the dedication and expertise shown by this team. They made a complex property deal seamless." },
+    { "name": "Robert Williams", "role": "Small Business Owner", "text": "They took the time to understand my business needs and provided practical, cost-effective legal solutions. Highly recommended." }
+  ],
+  "whyChoose": {
+    "title": "Why Choose LegalPedia",
+    "subtitle": "We combine legal expertise with a commitment to client success, delivering trusted counsel in every engagement.",
+    "experience_title": "Client Experience",
+    "points": [
+      { "title": "Strict Confidentiality", "desc": "Every case is handled with the highest level of privacy and discretion, ensuring your information remains protected." },
+      { "title": "Professional Legal Support", "desc": "Our experienced attorneys provide thorough, well-researched counsel tailored to your specific legal needs." },
+      { "title": "Multilingual Services", "desc": "We serve clients in English, Mongolian, and Chinese, ensuring clear communication across languages." },
+      { "title": "Client-Focused Approach", "desc": "We prioritize understanding your goals and crafting strategies that align with your best interests." }
+    ],
+    "quotes": [
+      { "text": "From the first consultation, I felt genuinely heard. Their advice was precise and actionable.", "author": "D. Batbayar", "role": "Business Owner" },
+      { "text": "LegalPedia handled our cross-border contract with professionalism I hadn't experienced before.", "author": "L. Wang", "role": "Import/Export Manager" },
+      { "text": "They explained complex legal matters in a way I could understand. Truly client-first.", "author": "T. Munkhtsetseg", "role": "Individual Client" }
+    ]
+  },
+  "team": [
+    { "name": "Alexander Mitchell", "role": "Managing Partner", "specialty": "Corporate Law & M&A", "bio": "With over 20 years of experience in corporate law, Alexander leads the firm with a focus on strategic growth and client relationships." },
+    { "name": "Victoria Chen", "role": "Senior Partner", "specialty": "Intellectual Property", "bio": "Victoria specializes in protecting innovations across technology and creative industries, with expertise in patent and trademark law." },
+    { "name": "David Richardson", "role": "Partner", "specialty": "Civil Litigation", "bio": "David brings a strategic approach to dispute resolution, with a strong track record in complex commercial litigation cases." },
+    { "name": "Elena Vasquez", "role": "Associate", "specialty": "Family Law", "bio": "Elena provides compassionate and effective counsel in family matters, focusing on mediation and child advocacy." }
+  ]
+}
