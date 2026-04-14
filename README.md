@@ -1,73 +1,124 @@
-# React + TypeScript + Vite
+# 📄 LegalPedia – AI-Powered Law Firm Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LegalPedia is a modern, multilingual law firm web platform powered by an intelligent AI chatbot.  
+It is designed to enhance client engagement, streamline legal intake, and provide accessible legal information across multiple languages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 🤖 AI Legal Assistant
+- Real-time conversational chatbot
+- Multilingual support: English, Chinese, Mongolian
+- Context-aware responses with structured conversation flow
+- Legal-safe responses with disclaimers
+- Lead capture (name, email, inquiry)
+- Intelligent conversation modes:
+  - Informational
+  - Case guidance
+  - Conversion (client intake)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 🌐 Multilingual System
+- Full site translation (EN / ZH / MN)
+- Dynamic language switching
+- Chatbot responds based on selected language
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### ⚖️ Legal Website Structure
+- Home page with sliding hero images
+- About page with:
+  - Firm story
+  - Growth timeline (2015–2026)
+  - Legal team profiles (hover/tap interaction)
+- Services pages:
+  - Service listing
+  - Individual service detail pages
+- Publications page:
+  - Legal documents
+  - Downloadable PDFs
+- Contact page:
+  - Integrated chatbot
+  - Inquiry options
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📄 Document Management
+- Upload legal documents (admin)
+- Download documents (users)
+- Document preview:
+  - Title
+  - Summary
+  - File type
+  - File size
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📊 Analytics & Tracking
+- Chat analytics:
+  - User queries
+  - Response success/failure
+  - Language usage
+- Visitor tracking (anonymous)
+- Lead collection via chatbot
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 🔐 Authentication
+- User login via:
+  - Email
+  - Social login (Google / Facebook)
+- User context passed to chatbot for personalization
+
+---
+
+### 🧑‍💼 Admin Dashboard
+- Manage:
+  - Services
+  - Publications
+  - Documents
+  - Blog/news
+- View chatbot analytics
+- Manage client interactions
+
+---
+
+### 📱 Responsive Design
+- Mobile-first UI
+- Tablet and desktop optimized
+- Touch-friendly interactions (hover → tap on mobile)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React + Vite
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+
+### Backend
+- Supabase
+  - Database
+  - Authentication
+  - Storage
+  - Edge Functions
+
+### AI Integration
+- AI Gateway (LLM API)
+- Streaming responses
+- Prompt-engineered system behavior
+- Context-aware messaging
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/legalpedia.git
+cd legalpedia
