@@ -1,5 +1,5 @@
-import { type ReactNode, useEffect, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { type ReactNode, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 //import { supabase } from '@/integrations/supabase/client';
 import { LayoutDashboard, FileText, Newspaper, BookOpen, LogOut, Menu, X, BarChart3, UserCheck } from 'lucide-react';
 
@@ -18,9 +18,9 @@ const navItems = [
 
 const AdminLayout = ({ children }: AdminLayoutProps) => {
   const location = useLocation();
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
+  //const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   const checkAuth = async () => {
