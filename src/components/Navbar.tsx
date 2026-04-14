@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, User, LogOut } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 //import { useAuth } from '@/contexts/AuthContext';
 //import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
