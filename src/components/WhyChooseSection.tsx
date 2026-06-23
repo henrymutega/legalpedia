@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Shield, Scale, Globe, Heart, Quote } from 'lucide-react';
+import { Shield, Scale, Globe, Heart } from 'lucide-react';
 
 const trustIcons = [
   <Shield size={32} />,
@@ -11,7 +11,6 @@ const trustIcons = [
 const WhyChooseSection = () => {
   const { t } = useTranslation();
   const trustPoints = t('whyChoose.points', { returnObjects: true }) as Array<{ title: string; desc: string }>;
-  const quotes = t('whyChoose.quotes', { returnObjects: true }) as Array<{ text: string; author: string; role: string }>;
 
   return (
     <section className="py-16 lg:py-24 bg-background">
@@ -47,29 +46,6 @@ const WhyChooseSection = () => {
           ))}
         </div>
 
-        {/* Client Experience Quotes */}
-        <div className="max-w-5xl mx-auto">
-          <h3 className="font-heading text-2xl font-bold text-foreground text-center mb-8">
-            {t('whyChoose.experience_title')}
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {Array.isArray(quotes) && quotes.map((q, i) => (
-              <div
-                key={i}
-                className="bg-primary rounded-2xl p-6 shadow-soft"
-              >
-                <Quote size={20} className="text-gold mb-3" />
-                <p className="text-primary-foreground/85 text-sm leading-relaxed italic mb-4">
-                  "{q.text}"
-                </p>
-                <div className="border-t border-gold/15 pt-3">
-                  <p className="text-gold font-semibold text-sm">{q.author}</p>
-                  <p className="text-primary-foreground/50 text-xs">{q.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

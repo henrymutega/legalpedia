@@ -1,9 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { useSitePage } from '@/hooks/cms/useCms';
+import { useLocale } from '@/hooks/cms/useLocaleField';
+import logoWhite from '@/assets/legalpedia-logo-white.png';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const locale = useLocale();
+  const { data: page } = useSitePage('footer');
+  const content: any = page ? ((page as any)[`content_${locale}`] || page.content) : null;
 
   const links = [
     { path: '/', label: t('nav.home') },
@@ -18,9 +24,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="font-heading text-2xl font-bold text-gold mb-4">LEGALPEDIA</h3>
+            <img src={logoWhite} alt={content?.brand || 'LegalPedia'} className="h-40 w-auto mb-0" width={160} height={64} />
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              {t('footer.description')}
+              {content?.description || t('footer.description')}
             </p>
           </div>
 
@@ -29,12 +35,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {links.map((link) => (
                 <li key={link.path}>
-                  <Link
-                    to={link.path}
-                    className="text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                  >
-                    {link.label}
-                  </Link>
+                  <Link to={link.path} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">{link.label}</Link>
                 </li>
               ))}
             </ul>
@@ -45,15 +46,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
-                {t('contact.address')}
+                {content?.address || t('contact.address')}
               </li>
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Phone size={16} className="text-gold shrink-0" />
-                {t('contact.phone')}
+                {content?.phone || t('contact.phone')}
               </li>
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail size={16} className="text-gold shrink-0" />
-                {t('contact.email')}
+                {content?.email || t('contact.email')}
               </li>
             </ul>
           </div>
@@ -61,7 +62,7 @@ const Footer = () => {
 
         <div className="border-t border-gold/20 mt-10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/50">
-            © {new Date().getFullYear()} LegalPedia. {t('footer.rights')}
+            © {new Date().getFullYear()} {content?.brand || 'LegalPedia'}. {t('footer.rights')}
           </p>
         </div>
       </div>

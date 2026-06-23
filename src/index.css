@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 40% 13%;
 
-    --primary: 220 60% 15%;
+    --primary: 2 61% 21%;
     --primary-foreground: 43 80% 65%;
 
     --secondary: 220 25% 92%;
@@ -25,7 +25,7 @@
     --muted-foreground: 220 15% 46%;
 
     --accent: 43 80% 55%;
-    --accent-foreground: 220 60% 15%;
+    --accent-foreground: 2 61% 21%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -36,19 +36,19 @@
 
     --radius: 0.5rem;
 
-    --navy: 220 60% 15%;
-    --navy-light: 220 45% 25%;
+    --navy: 2 61% 21%;
+    --navy-light: 2 50% 31%;
     --gold: 43 80% 55%;
     --gold-light: 43 70% 70%;
     --gold-dark: 43 85% 42%;
     --cream: 40 30% 96%;
 
-    --hero-gradient: linear-gradient(135deg, hsl(220 60% 12%), hsl(220 50% 20%));
+    --hero-gradient: linear-gradient(135deg, hsl(2 61% 17%), hsl(2 52% 26%));
     --gold-gradient: linear-gradient(135deg, hsl(43 80% 55%), hsl(43 70% 65%));
-    --overlay: linear-gradient(180deg, hsla(220, 60%, 10%, 0.7), hsla(220, 60%, 10%, 0.4));
+    --overlay: linear-gradient(180deg, hsla(2, 61%, 14%, 0.7), hsla(2, 61%, 14%, 0.4));
 
-    --shadow-soft: 0 4px 24px -4px hsla(220, 60%, 15%, 0.08);
-    --shadow-card: 0 8px 32px -8px hsla(220, 60%, 15%, 0.12);
+    --shadow-soft: 0 4px 24px -4px hsla(2, 61%, 21%, 0.08);
+    --shadow-card: 0 8px 32px -8px hsla(2, 61%, 21%, 0.12);
     --shadow-gold: 0 4px 20px -4px hsla(43, 80%, 55%, 0.3);
 
     --font-heading: 'Playfair Display', Georgia, serif;
@@ -95,6 +95,14 @@
   }
   .bg-overlay {
     background: var(--overlay);
+  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  .bg-hero-mesh {
+    background-image:
+      radial-gradient(ellipse at top left, hsla(43, 80%, 55%, 0.18), transparent 50%),
+      radial-gradient(ellipse at bottom right, hsla(2, 55%, 30%, 0.4), transparent 55%),
+      linear-gradient(135deg, hsl(2 61% 14%), hsl(2 52% 22%));
   }
 }
 

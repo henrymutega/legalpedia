@@ -4,7 +4,73 @@
     "about": "About Us",
     "services": "Services",
     "publications": "Publications",
+    "resources": "Resources",
+    "news_research": "News & Research",
+    "news_research_desc": "Insights, articles, legal news and research.",
+    "legal_documents": "Legal Documents",
+    "legal_documents_desc": "Browse, preview and purchase ready-to-use legal templates.",
+    "ai_assistant": "AI Assistant",
     "contact": "Contact"
+  },
+  "news_research": {
+    "title": "News & Research",
+    "subtitle": "Insights, legal news, and research from the LegalPedia team.",
+    "search_placeholder": "Search articles…",
+    "featured": "Featured",
+    "all": "All",
+    "read_article": "Read article",
+    "read_min": "{{n}} min read",
+    "docs_cta_title": "Looking for ready-to-use legal documents?",
+    "docs_cta_desc": "Browse our marketplace of professional contracts, agreements, and compliance templates.",
+    "docs_cta_btn": "Open Legal Documents"
+  },
+  "legal_docs": {
+    "title": "Legal Documents",
+    "subtitle": "Premium legal templates, contracts and compliance documents — ready to download.",
+    "search_placeholder": "Search documents…",
+    "price": "Price",
+    "price_all": "All prices",
+    "price_free": "Free",
+    "price_paid": "Paid",
+    "sort": "Sort",
+    "sort_newest": "Newest",
+    "sort_popular": "Most popular",
+    "sort_price_asc": "Price: low to high",
+    "sort_price_desc": "Price: high to low",
+    "all_categories": "All categories",
+    "featured": "Featured",
+    "free": "Free",
+    "empty": "No documents match your filters yet.",
+    "back": "Back to documents",
+    "not_found": "Document not found.",
+    "preview_title": "What's inside",
+    "downloads": "downloads",
+    "buy_now": "Buy & Download",
+    "get_free": "Get for free",
+    "download": "Download",
+    "owned": "You own this document",
+    "secure_payment": "Secure payment via Stripe",
+    "instant_download": "Instant download after purchase",
+    "editable_format": "Professionally drafted, editable",
+    "login_required": "Sign in to purchase and download.",
+    "sign_in": "Sign in",
+    "purchase_success": "Purchase complete — your document is ready.",
+    "purchase_cancelled": "Purchase cancelled.",
+    "purchase_error": "Could not start checkout.",
+    "download_started": "Download started.",
+    "download_error": "Download failed.",
+    "pay_how_title": "How to pay",
+    "pay_instructions": "Transfer the amount shown above to the account below, then enter your payment confirmation code. An administrator will verify your payment and authorize your download.",
+    "pay_account": "Bank: Khan Bank\nAccount name: LegalPedia LLC\nAccount number: 5000 1234 5678\nReference: Use the document title",
+    "code_label": "Payment confirmation code",
+    "code_placeholder": "Enter your transaction / confirmation code",
+    "submit_request": "Submit for authorization",
+    "request_submitted": "Submitted! An administrator will authorize your download shortly.",
+    "request_pending": "Your payment is awaiting authorization.",
+    "request_pending_help": "Once an administrator confirms your payment, the download will unlock here.",
+    "request_rejected": "Your payment request was declined. Please contact us.",
+    "code_required": "Please enter your confirmation code.",
+    "submit_error": "Could not submit your request. Please try again."
   },
   "hero": {
     "slide1": "Justice. Integrity. Excellence.",
@@ -12,13 +78,78 @@
     "slide3": "Trusted Legal Partners for Over 20 Years",
     "subtitle": "We provide expert legal counsel and representation across a wide range of practice areas, committed to achieving the best outcomes for our clients.",
     "cta_consult": "Book Consultation",
-    "cta_services": "View Services"
+    "cta_services": "View Services",
+    "badge": "Modern Legal-Tech Platform"
   },
   "home": {
     "intro_title": "A Legacy of Legal Excellence",
-    "intro_text": "Founded in 2003, LegalPedia has built a reputation for delivering exceptional legal services with integrity and dedication. We combine deep legal expertise with a client-centered approach to achieve outstanding results.",
+    "intro_text": "LegalPedia has built a reputation for delivering exceptional legal services with integrity and dedication. We combine deep legal expertise with a client-centered approach to achieve outstanding results.",
     "services_title": "Our Practice Areas",
-    "testimonials_title": "What Our Clients Say"
+    "testimonials_title": "What Our Clients Say",
+    "practice_subtitle": "Specialized counsel across every domain of modern legal practice.",
+    "testimonials_subtitle": "Trusted by enterprises, founders and families across Mongolia and beyond.",
+    "faq_title": "Frequently Asked Questions",
+    "floating": {
+      "ai": {
+        "title": "AI Legal Assistant",
+        "desc": "Intelligent multilingual legal guidance powered by LegalPedia AI.",
+        "cta": "Chat With AI"
+      },
+      "dashboard": {
+        "title": "Client Collaboration Portal",
+        "desc": "Securely upload, review, and manage legal documents with your lawyer.",
+        "cta": "Access Dashboard"
+      },
+      "services": {
+        "title": "Legal Services & Publications",
+        "desc": "Explore legal services, contracts, and professional legal resources.",
+        "cta": "Explore Services"
+      }
+    },
+    "journey": {
+      "title": "Your Legal Journey",
+      "subtitle": "A human story — from the first moment of doubt, to the quiet relief of resolution.",
+      "cta": "Start Your Journey",
+      "s1": {
+        "emotion": "Overwhelmed",
+        "title": "Confusion",
+        "desc": "A legal challenge appears — uncertainty, pressure and scattered information weigh on the mind."
+      },
+      "s2": {
+        "emotion": "Hopeful",
+        "title": "Reaching Out",
+        "desc": "A first call to LegalPedia — the moment hope replaces hesitation."
+      },
+      "s3": {
+        "emotion": "Supported",
+        "title": "Legal Support",
+        "desc": "Experienced counsel listens, advises and stands beside you every step of the way."
+      },
+      "s4": {
+        "emotion": "Relieved",
+        "title": "Success",
+        "desc": "Resolution achieved. Peace of mind, restored confidence, a brighter chapter ahead."
+      }
+    },
+    "portal": {
+      "badge": "LegalPedia Client Portal",
+      "title": "Your Legal World, In One Dashboard",
+      "subtitle": "Manage your cases, documents and communication with your legal team from a single, secure client portal — built for clarity and peace of mind.",
+      "window": "LegalPedia · My Dashboard",
+      "case1": "Contract Review — Acme Ltd",
+      "case2": "Property Dispute Filing",
+      "case3": "Employment Agreement",
+      "f1_title": "Track Every Case",
+      "f1_desc": "Follow the real-time status of all your matters in one secure place.",
+      "f2_title": "Share Documents",
+      "f2_desc": "Upload and exchange files safely with your legal team anytime.",
+      "f3_title": "Stay in Touch",
+      "f3_desc": "Message your lawyer and receive instant notifications on updates.",
+      "f4_title": "Personal Analytics",
+      "f4_desc": "Visualize your cases, activity and progress with clear insights.",
+      "cta": "Access Client Portal",
+      "cta2": "Sign In"
+    }
   },
   "about": {
     "title": "About LegalPedia",
@@ -31,13 +162,75 @@
     "vision": "To be the leading legal platform recognized for legal innovation, client satisfaction, and community impact.",
     "team_title": "Our Legal Team",
     "timeline_title": "Our Growth Journey",
+    "values_title": "Our Values",
+    "values": [
+      {
+        "title": "Integrity",
+        "desc": "We uphold honesty and transparency in all legal matters."
+      },
+      {
+        "title": "Confidentiality",
+        "desc": "Your information is handled with strict privacy and care."
+      },
+      {
+        "title": "Professional Excellence",
+        "desc": "We deliver high-quality legal services with precision."
+      },
+      {
+        "title": "Client Commitment",
+        "desc": "We prioritize our clients' needs and outcomes."
+      }
+    ],
+    "audience_title": "Who We Serve",
+    "audience": [
+      {
+        "title": "Individuals",
+        "desc": "Personal legal matters and consultations."
+      },
+      {
+        "title": "Businesses",
+        "desc": "Corporate and compliance legal services."
+      },
+      {
+        "title": "Startups",
+        "desc": "Legal support for growing ventures."
+      },
+      {
+        "title": "Property Clients",
+        "desc": "Real estate and property law services."
+      }
+    ],
     "timeline": [
-      { "year": "2015", "title": "Foundation", "desc": "LegalPedia was established with a vision to provide accessible, high-quality legal services." },
-      { "year": "2017", "title": "Building Trust", "desc": "Expanded our client base through consistent results and word-of-mouth referrals." },
-      { "year": "2019", "title": "Service Expansion", "desc": "Added intellectual property and employment law to our practice areas." },
-      { "year": "2021", "title": "Digital Transformation", "desc": "Launched digital client services and AI-powered legal assistance." },
-      { "year": "2023", "title": "Regional Recognition", "desc": "Recognized as one of the region's most trusted legal institutions." },
-      { "year": "2026", "title": "Present Day", "desc": "Continuing to grow with a dedicated team serving clients across multiple practice areas." }
+      {
+        "year": "2015",
+        "title": "Foundation",
+        "desc": "LegalPedia was established with a vision to provide accessible, high-quality legal services."
+      },
+      {
+        "year": "2017",
+        "title": "Building Trust",
+        "desc": "Expanded our client base through consistent results and word-of-mouth referrals."
+      },
+      {
+        "year": "2019",
+        "title": "Service Expansion",
+        "desc": "Added intellectual property and employment law to our practice areas."
+      },
+      {
+        "year": "2021",
+        "title": "Digital Transformation",
+        "desc": "Launched digital client services and AI-powered legal assistance."
+      },
+      {
+        "year": "2023",
+        "title": "Regional Recognition",
+        "desc": "Recognized as one of the region's most trusted legal institutions."
+      },
+      {
+        "year": "2026",
+        "title": "Present Day",
+        "desc": "Continuing to grow with a dedicated team serving clients across multiple practice areas."
+      }
     ]
   },
   "services": {
@@ -47,49 +240,125 @@
     "related": "Related Services",
     "benefits": "Key Benefits",
     "contact_lawyer": "Contact a Lawyer",
+    "faq_title": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "How long does this process take?",
+        "a": "Timelines vary by case complexity, but most matters progress within 2–8 weeks after initial consultation."
+      },
+      {
+        "q": "What documents are required?",
+        "a": "Bring any contracts, identification, and correspondence relevant to your matter. We'll request specifics during onboarding."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Submit an inquiry through our contact form or chatbot, and a lawyer will follow up within one business day."
+      },
+      {
+        "q": "Do I need a consultation first?",
+        "a": "Yes, an initial consultation lets us understand your needs and recommend the right approach."
+      }
+    ],
     "items": {
       "corporate": {
         "title": "Corporate Law",
         "short": "Expert guidance for business formation, governance, mergers, and acquisitions.",
         "full": "Our corporate law team provides comprehensive legal support for businesses at every stage. From entity formation and corporate governance to complex mergers and acquisitions, we help organizations navigate the legal landscape with confidence.",
-        "benefits": ["Strategic business structuring", "Risk mitigation", "Regulatory compliance", "M&A advisory"]
+        "benefits": [
+          "Strategic business structuring",
+          "Risk mitigation",
+          "Regulatory compliance",
+          "M&A advisory"
+        ]
       },
       "litigation": {
         "title": "Civil Litigation",
         "short": "Aggressive representation in commercial disputes and civil proceedings.",
         "full": "When disputes arise, our litigation team is prepared to protect your interests vigorously. We handle complex commercial litigation, contract disputes, and civil proceedings with a strategic approach designed to achieve favorable outcomes.",
-        "benefits": ["Experienced trial attorneys", "Strategic case management", "Alternative dispute resolution", "Cost-effective litigation"]
+        "benefits": [
+          "Experienced trial attorneys",
+          "Strategic case management",
+          "Alternative dispute resolution",
+          "Cost-effective litigation"
+        ]
       },
       "ip": {
         "title": "Intellectual Property",
         "short": "Protecting your innovations, trademarks, copyrights, and trade secrets.",
         "full": "Innovation deserves protection. Our IP attorneys help clients secure and defend their intellectual property rights, including patents, trademarks, copyrights, and trade secrets across all industries.",
-        "benefits": ["Patent prosecution", "Trademark registration", "Copyright protection", "IP portfolio management"]
+        "benefits": [
+          "Patent prosecution",
+          "Trademark registration",
+          "Copyright protection",
+          "IP portfolio management"
+        ]
       },
       "realestate": {
         "title": "Real Estate Law",
         "short": "Comprehensive legal services for property transactions and development.",
         "full": "Our real estate practice covers residential and commercial transactions, land use and zoning, construction law, and property disputes. We guide clients through every aspect of real estate dealings.",
-        "benefits": ["Transaction support", "Title review", "Zoning compliance", "Lease negotiation"]
+        "benefits": [
+          "Transaction support",
+          "Title review",
+          "Zoning compliance",
+          "Lease negotiation"
+        ]
       },
       "family": {
         "title": "Family Law",
         "short": "Compassionate counsel for divorce, custody, and family matters.",
         "full": "Family legal matters require sensitivity and expertise. Our family law attorneys provide compassionate representation in divorce, child custody, adoption, and prenuptial agreements.",
-        "benefits": ["Mediation services", "Child advocacy", "Asset protection", "Confidential handling"]
+        "benefits": [
+          "Mediation services",
+          "Child advocacy",
+          "Asset protection",
+          "Confidential handling"
+        ]
       },
       "employment": {
         "title": "Employment Law",
         "short": "Protecting employer and employee rights in the workplace.",
         "full": "We advise both employers and employees on workplace legal issues including discrimination, wrongful termination, employment contracts, and regulatory compliance.",
-        "benefits": ["Policy development", "Dispute resolution", "Compliance auditing", "Contract negotiation"]
+        "benefits": [
+          "Policy development",
+          "Dispute resolution",
+          "Compliance auditing",
+          "Contract negotiation"
+        ]
       }
-    }
+    },
+    "all": "All Services",
+    "categories": "Practice Areas",
+    "sub_intro": "Our {{area}} team offers dedicated, hands-on support for {{topic}}. From your first consultation to final resolution, we translate complex legal requirements into clear, practical steps so you always know where you stand and what happens next.",
+    "sub_overview_title": "What this service covers",
+    "sub_overview": "{{topic}} is a core part of our {{area}} practice. We assess your circumstances, identify risks and opportunities, and prepare the documents, filings, and strategy needed to protect your interests. Whether you are an individual or a business, our advice is tailored to your specific goals and budget.",
+    "sub_included_title": "What's included",
+    "sub_inc_1": "Initial review and assessment of your {{topic}} matter",
+    "sub_inc_2": "Clear, written advice on your rights and options",
+    "sub_inc_3": "Preparation and review of all required documents",
+    "sub_inc_4": "Representation and negotiation on your behalf",
+    "sub_inc_5": "Ongoing updates and direct access to your lawyer",
+    "sub_inc_6": "Transparent fees agreed before we begin",
+    "sub_process_title": "How we work with you",
+    "sub_step_1_t": "Consultation",
+    "sub_step_1_d": "We listen to your situation, explain how the law applies to {{topic}}, and outline the possible routes forward.",
+    "sub_step_2_t": "Strategy & quote",
+    "sub_step_2_d": "We agree a clear plan and transparent fee so there are no surprises.",
+    "sub_step_3_t": "Action",
+    "sub_step_3_d": "We prepare documents, handle filings, and represent you in negotiations or proceedings.",
+    "sub_step_4_t": "Resolution",
+    "sub_step_4_d": "We see your matter through to completion and advise on any next steps.",
+    "sub_why_title": "Why it matters",
+    "sub_why": "Getting {{topic}} right protects you from costly mistakes, delays, and disputes down the line. Our experienced {{area}} team gives you the confidence that every detail is handled correctly and your interests are fully protected.",
+    "sub_covers_desc": "{{topic}} services within {{area}}."
   },
   "publications": {
     "title": "Publications & Resources",
     "subtitle": "Stay informed with our latest legal insights and research",
     "download": "Download",
+    "preview": "View Preview",
+    "type_label": "Type",
+    "size_label": "Size",
     "filter_all": "All",
     "filter_news": "News",
     "filter_legal": "Legal",
@@ -104,8 +373,8 @@
     "form_message": "Your Message",
     "form_submit": "Send Message",
     "office_title": "Our Office",
-    "address": "123 Justice Avenue, Suite 500, Ulanbaatar, Mongolia 10001",
-    "phone": "+976 1234 5678",
+    "address": "123 Justice Avenue, Suite 500, New York, NY 10001",
+    "phone": "+1 (555) 123-4567",
     "email": "info@legalpedia.com",
     "hours": "Mon-Fri: 9:00 AM - 6:00 PM",
     "chatbot_title": "AI Legal Assistant",
@@ -124,13 +393,41 @@
     "cta_subtitle": "Our experienced team is ready to guide you through every step.",
     "cta_button": "Talk to a Lawyer",
     "steps": [
-      { "title": "Visit Our Platform", "description": "Explore our services online", "detail": "Browse our website to learn about our practice areas, team, and how we can help with your legal needs." },
-      { "title": "Select Your Issue", "description": "Identify the right service", "detail": "Choose from corporate law, litigation, IP, real estate, family law, or employment law based on your situation." },
-      { "title": "Review Details", "description": "Understand your options", "detail": "Read detailed information about each service, including benefits, process, and what to expect." },
-      { "title": "Engage With Us", "description": "Chat or contact directly", "detail": "Use our AI legal assistant for quick answers, or reach out directly to schedule a consultation." },
-      { "title": "Submit Inquiry", "description": "Share your case details", "detail": "Fill out our contact form or upload relevant documents so our team can review your situation." },
-      { "title": "Lawyer Reviews", "description": "Expert evaluation", "detail": "A qualified lawyer reviews your case, researches applicable law, and prepares a tailored strategy." },
-      { "title": "Receive Solution", "description": "Get your legal resolution", "detail": "Receive a comprehensive legal solution, ongoing support, and guidance for next steps." }
+      {
+        "title": "Visit Our Platform",
+        "description": "Explore our services online",
+        "detail": "Browse our website to learn about our practice areas, team, and how we can help with your legal needs."
+      },
+      {
+        "title": "Select Your Issue",
+        "description": "Identify the right service",
+        "detail": "Choose from corporate law, litigation, IP, real estate, family law, or employment law based on your situation."
+      },
+      {
+        "title": "Review Details",
+        "description": "Understand your options",
+        "detail": "Read detailed information about each service, including benefits, process, and what to expect."
+      },
+      {
+        "title": "Engage With Us",
+        "description": "Chat or contact directly",
+        "detail": "Use our AI legal assistant for quick answers, or reach out directly to schedule a consultation."
+      },
+      {
+        "title": "Submit Inquiry",
+        "description": "Share your case details",
+        "detail": "Fill out our contact form or upload relevant documents so our team can review your situation."
+      },
+      {
+        "title": "Lawyer Reviews",
+        "description": "Expert evaluation",
+        "detail": "A qualified lawyer reviews your case, researches applicable law, and prepares a tailored strategy."
+      },
+      {
+        "title": "Receive Solution",
+        "description": "Get your legal resolution",
+        "detail": "Receive a comprehensive legal solution, ongoing support, and guidance for next steps."
+      }
     ]
   },
   "chatbot": {
@@ -143,33 +440,872 @@
     "action_documents": "📄 Download Documents",
     "action_documents_msg": "How can I access your legal publications and documents?",
     "action_contact": "📞 Contact a Lawyer",
-    "action_contact_msg": "I would like to speak with a lawyer about my case."
+    "action_contact_msg": "I would like to speak with a lawyer about my case.",
+    "bubble_messages": [
+      "Need legal help? Chat with us.",
+      "Speak with our AI Legal Assistant.",
+      "Have a quick legal question? Ask now."
+    ]
   },
   "testimonials": [
-    { "name": "James Morrison", "role": "CEO, TechVentures Inc.", "text": "Outstanding legal representation. Their team handled our corporate restructuring with exceptional professionalism and attention to detail." },
-    { "name": "Sarah Chen", "role": "Real Estate Developer", "text": "I've worked with many law firms, but none compare to the dedication and expertise shown by this team. They made a complex property deal seamless." },
-    { "name": "Robert Williams", "role": "Small Business Owner", "text": "They took the time to understand my business needs and provided practical, cost-effective legal solutions. Highly recommended." }
+    {
+      "name": "James Morrison",
+      "role": "CEO, TechVentures Inc.",
+      "text": "Outstanding legal representation. Their team handled our corporate restructuring with exceptional professionalism and attention to detail."
+    },
+    {
+      "name": "Sarah Chen",
+      "role": "Real Estate Developer",
+      "text": "I've worked with many law firms, but none compare to the dedication and expertise shown by this team. They made a complex property deal seamless."
+    },
+    {
+      "name": "Robert Williams",
+      "role": "Small Business Owner",
+      "text": "They took the time to understand my business needs and provided practical, cost-effective legal solutions. Highly recommended."
+    }
   ],
   "whyChoose": {
     "title": "Why Choose LegalPedia",
     "subtitle": "We combine legal expertise with a commitment to client success, delivering trusted counsel in every engagement.",
     "experience_title": "Client Experience",
     "points": [
-      { "title": "Strict Confidentiality", "desc": "Every case is handled with the highest level of privacy and discretion, ensuring your information remains protected." },
-      { "title": "Professional Legal Support", "desc": "Our experienced attorneys provide thorough, well-researched counsel tailored to your specific legal needs." },
-      { "title": "Multilingual Services", "desc": "We serve clients in English, Mongolian, and Chinese, ensuring clear communication across languages." },
-      { "title": "Client-Focused Approach", "desc": "We prioritize understanding your goals and crafting strategies that align with your best interests." }
+      {
+        "title": "Strict Confidentiality",
+        "desc": "Every case is handled with the highest level of privacy and discretion, ensuring your information remains protected."
+      },
+      {
+        "title": "Professional Legal Support",
+        "desc": "Our experienced attorneys provide thorough, well-researched counsel tailored to your specific legal needs."
+      },
+      {
+        "title": "Multilingual Services",
+        "desc": "We serve clients in English, Mongolian, and Chinese, ensuring clear communication across languages."
+      },
+      {
+        "title": "Client-Focused Approach",
+        "desc": "We prioritize understanding your goals and crafting strategies that align with your best interests."
+      }
     ],
     "quotes": [
-      { "text": "From the first consultation, I felt genuinely heard. Their advice was precise and actionable.", "author": "D. Batbayar", "role": "Business Owner" },
-      { "text": "LegalPedia handled our cross-border contract with professionalism I hadn't experienced before.", "author": "L. Wang", "role": "Import/Export Manager" },
-      { "text": "They explained complex legal matters in a way I could understand. Truly client-first.", "author": "T. Munkhtsetseg", "role": "Individual Client" }
+      {
+        "text": "From the first consultation, I felt genuinely heard. Their advice was precise and actionable.",
+        "author": "D. Batbayar",
+        "role": "Business Owner"
+      },
+      {
+        "text": "LegalPedia handled our cross-border contract with professionalism I hadn't experienced before.",
+        "author": "L. Wang",
+        "role": "Import/Export Manager"
+      },
+      {
+        "text": "They explained complex legal matters in a way I could understand. Truly client-first.",
+        "author": "T. Munkhtsetseg",
+        "role": "Individual Client"
+      }
     ]
   },
   "team": [
-    { "name": "Alexander Mitchell", "role": "Managing Partner", "specialty": "Corporate Law & M&A", "bio": "With over 20 years of experience in corporate law, Alexander leads the firm with a focus on strategic growth and client relationships." },
-    { "name": "Victoria Chen", "role": "Senior Partner", "specialty": "Intellectual Property", "bio": "Victoria specializes in protecting innovations across technology and creative industries, with expertise in patent and trademark law." },
-    { "name": "David Richardson", "role": "Partner", "specialty": "Civil Litigation", "bio": "David brings a strategic approach to dispute resolution, with a strong track record in complex commercial litigation cases." },
-    { "name": "Elena Vasquez", "role": "Associate", "specialty": "Family Law", "bio": "Elena provides compassionate and effective counsel in family matters, focusing on mediation and child advocacy." }
-  ]
+    {
+      "name": "Alexander Mitchell",
+      "role": "Managing Partner",
+      "specialty": "Corporate Law & M&A",
+      "bio": "With over 20 years of experience in corporate law, Alexander leads the firm with a focus on strategic growth and client relationships."
+    },
+    {
+      "name": "Victoria Chen",
+      "role": "Senior Partner",
+      "specialty": "Intellectual Property",
+      "bio": "Victoria specializes in protecting innovations across technology and creative industries, with expertise in patent and trademark law."
+    },
+    {
+      "name": "David Richardson",
+      "role": "Partner",
+      "specialty": "Civil Litigation",
+      "bio": "David brings a strategic approach to dispute resolution, with a strong track record in complex commercial litigation cases."
+    },
+    {
+      "name": "Elena Vasquez",
+      "role": "Associate",
+      "specialty": "Family Law",
+      "bio": "Elena provides compassionate and effective counsel in family matters, focusing on mediation and child advocacy."
+    }
+  ],
+  "auth": {
+    "login": "Sign In",
+    "signup": "Create Account",
+    "logout": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forgot_password": "Forgot password?",
+    "reset_password": "Reset Password",
+    "verify_email": "Verify Email",
+    "check_email": "Check your email",
+    "verify_email_desc": "We sent you a verification link to confirm your account.",
+    "login_subtitle": "Sign in for a personalized experience",
+    "signup_subtitle": "Create your LegalPedia account",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?",
+    "google_login": "Continue with Google",
+    "or": "or",
+    "loading": "Signing in...",
+    "invalid_credentials": "Invalid credentials",
+    "account_created": "Account created successfully",
+    "admin_login": "Admin Login",
+    "admin_subtitle": "Sign in to manage your website",
+    "no_admin_access": "You do not have admin access.",
+    "submit": "Sign In",
+    "submitting": "Signing in..."
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "welcome_name": "Welcome, {{name}}",
+    "subtitle": "Your secure legal portal",
+    "new_case": "New Case",
+    "active_cases": "Active Cases",
+    "under_review": "Under Review",
+    "pending_action": "Pending Action",
+    "completed": "Completed",
+    "total_cases": "Total Cases",
+    "active_lawyers": "Active Lawyers",
+    "unassigned": "Unassigned",
+    "my_active_cases": "My Active Cases",
+    "unassigned_queue": "Unassigned Queue",
+    "recent_uploads": "Recent Uploads",
+    "recent_comments": "Recent Comments",
+    "recent_activity": "Recent Activity",
+    "lawyer_workspace": "Lawyer Workspace",
+    "lawyer_workspace_subtitle": "Live case load, uploads, and collaboration.",
+    "operations": "Operations",
+    "operations_subtitle": "Real-time view of cases, lawyer workload, and activity.",
+    "lawyer_workload": "Lawyer Workload",
+    "status_breakdown": "Status Breakdown",
+    "no_lawyers": "No lawyers in the system yet.",
+    "active_count": "{{count}} active",
+    "my_cases": "My Cases",
+    "all_cases": "All Cases",
+    "unassigned_cases": "Unassigned Cases",
+    "no_cases": "No cases yet.",
+    "no_activity": "No activity yet.",
+    "no_uploads": "No uploads yet.",
+    "no_comments": "No comments yet.",
+    "no_match": "No cases match these filters.",
+    "empty": "Empty",
+    "claim": "Claim",
+    "view": "View",
+    "claim_case": "Claim Case",
+    "release": "Release",
+    "unassign": "Unassign",
+    "already_claimed": "Already claimed",
+    "already_claimed_desc": "Another lawyer just took this case.",
+    "case_claimed": "Case claimed",
+    "case_claimed_desc": "It is now assigned to you.",
+    "could_not_claim": "Could not claim",
+    "lawyer_assigned": "Lawyer assigned",
+    "lawyer_unassigned": "Lawyer unassigned",
+    "assign_failed": "Assign failed",
+    "released": "Released",
+    "status_updated": "Status updated",
+    "update_failed": "Update failed",
+    "upload_document": "Upload New Document",
+    "upload_document_desc": "Start a new legal case submission",
+    "view_my_cases": "View My Cases",
+    "view_my_cases_desc": "Track status and updates",
+    "contact_team": "Contact Legal Team",
+    "contact_team_desc": "Reach out to a lawyer directly",
+    "client": "Client",
+    "search_cases": "Search cases...",
+    "all_statuses": "All statuses",
+    "all_lawyers": "All lawyers",
+    "case": "Case",
+    "lawyer": "Lawyer",
+    "files": "Files",
+    "updated": "Updated",
+    "messages": "Messages",
+    "new_comment": "New comment",
+    "pending_assignment": "Pending Assignment",
+    "no_pending_assignment": "No new cases awaiting assignment.",
+    "assign_to_lawyer": "Assign to lawyer…",
+    "case_assigned": "Case assigned",
+    "unassigned_tasks": "Unassigned Tasks"
+  },
+  "cases": {
+    "title_label": "Title",
+    "category": "Category",
+    "description": "Description",
+    "document_optional": "Document (optional)",
+    "create_case": "Create Case",
+    "creating": "Creating...",
+    "new_case_title": "New Case",
+    "case_created": "Case created",
+    "invalid_input": "Invalid input",
+    "error": "Error",
+    "upload_failed": "Upload failed",
+    "send": "Send",
+    "send_failed": "Send failed",
+    "attach": "Attach",
+    "drop_to_attach": "Drop to attach",
+    "composer_placeholder": "Write a message, drop files, or both…",
+    "no_activity_long": "No activity yet. Send a message or upload a document to begin.",
+    "cases": "Cases",
+    "search_cases": "Search cases",
+    "no_cases_found": "No cases found.",
+    "case_details": "Case Details",
+    "status": "Status",
+    "assigned_lawyer": "Assigned Lawyer",
+    "no_assigned_lawyer": "No assigned lawyer yet",
+    "quick_actions": "Quick Actions",
+    "activity_summary": "Activity Summary",
+    "unassigned_option": "— Unassigned —",
+    "dashboard": "Dashboard",
+    "loading_case": "Loading case…",
+    "case_not_found": "Case not found.",
+    "download": "Download",
+    "download_failed": "Download failed",
+    "reviewed_doc": "Reviewed",
+    "signed_doc": "Signed",
+    "you": "You",
+    "unknown": "Unknown",
+    "user": "User",
+    "uploaded": "Uploaded {{count}} files",
+    "need_details": "Add a few details",
+    "need_details_desc": "Please provide a short description or attach at least one document so a lawyer can help you.",
+    "case_created_desc": "A lawyer will review your request shortly.",
+    "new_case_helper": "Tell us briefly what you need help with. A lawyer will reach out to you shortly.",
+    "title_placeholder": "e.g. Review of employment contract",
+    "description_placeholder": "Describe your situation in your own words. Add any deadlines or specific questions.",
+    "drop_files": "Drop files here or click to browse",
+    "drop_files_hint": "PDF, Word, images — up to 25MB each",
+    "submit_hint": "Add a short description OR attach a document. Both are even better."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications",
+    "mark_all_read": "Mark all read"
+  },
+  "validation": {
+    "required": "Required field",
+    "invalid_email": "Invalid email",
+    "password_too_short": "Password too short",
+    "upload_failed": "Upload failed",
+    "network_error": "Network error",
+    "something_wrong": "Something went wrong"
+  },
+  "roles": {
+    "client": "Client",
+    "lawyer": "Lawyer",
+    "admin": "Admin",
+    "super_admin": "Super Admin",
+    "staff": "Staff"
+  },
+  "case_status": {
+    "uploaded": "New / Uploaded",
+    "under_review": "Under Review",
+    "reviewed": "Reviewed",
+    "completed": "Completed",
+    "open": "Open",
+    "assigned": "Assigned",
+    "in_progress": "In Progress",
+    "awaiting_client": "Awaiting Client",
+    "closed": "Closed"
+  },
+  "category": {
+    "corporate": "Corporate Law",
+    "family": "Family Law",
+    "real_estate": "Real Estate Law",
+    "employment": "Employment Law",
+    "ip": "Intellectual Property",
+    "litigation": "Civil Litigation"
+  },
+  "file_kind": {
+    "original": "Original",
+    "reviewed": "Reviewed",
+    "signed": "Signed"
+  },
+  "tasks": {
+    "new_task": "New Task",
+    "create_task": "Create Task",
+    "creating": "Creating...",
+    "title": "Title",
+    "description": "Description",
+    "category": "Category",
+    "priority": "Priority",
+    "assign_to_optional": "Assign to (optional)",
+    "leave_for_claim": "— Leave for claim —",
+    "due_date_optional": "Due date (optional)",
+    "related_case_optional": "Related case (optional)",
+    "none_option": "— None —",
+    "unassigned_option": "— Unassigned —",
+    "invalid_input": "Invalid input",
+    "create_failed": "Failed to create task",
+    "task_created": "Task created",
+    "loading": "Loading…",
+    "not_found": "Task not found.",
+    "back": "Back",
+    "linked_case": "· linked case",
+    "created_by": "Created by {{name}}",
+    "due_on": "due {{date}}",
+    "delete": "Delete",
+    "confirm_delete": "Delete this task? This cannot be undone.",
+    "delete_failed": "Delete failed",
+    "task_deleted": "Task deleted",
+    "handled_by": "Currently handled by",
+    "unassigned": "Unassigned",
+    "release_task": "Release task",
+    "claim_task": "Claim Task",
+    "claimed": "Claimed",
+    "released": "Released",
+    "could_not_claim": "Could not claim",
+    "already_claimed": "Already claimed",
+    "already_claimed_desc": "Another lawyer just took this one.",
+    "assign_failed": "Assign failed",
+    "reassigned": "Reassigned",
+    "status": "Status",
+    "status_update_failed": "Status update failed",
+    "viewing_singular": "{{name}} is viewing now",
+    "viewing_plural": "{{count}} others viewing now",
+    "internal_notes": "Internal Notes",
+    "no_notes": "No notes yet.",
+    "add_note_placeholder": "Add an internal note…",
+    "comment_failed": "Comment failed",
+    "activity": "Activity",
+    "no_activity": "No activity yet.",
+    "act_created": "created this task",
+    "act_claimed": "claimed the task",
+    "act_released": "released the task",
+    "act_assigned_to": "assigned to",
+    "act_status_changed": "changed status:",
+    "act_commented": "added an internal note",
+    "someone": "someone",
+    "task_claimed": "Task claimed"
+  },
+  "nav_dashboard": {
+    "workspace": "Workspace",
+    "manage": "Manage",
+    "overview": "Dashboard",
+    "cases": "Cases",
+    "tasks": "Tasks",
+    "appointments": "Appointments",
+    "notifications": "Notifications",
+    "team": "Team",
+    "analytics": "Analytics",
+    "my_analytics": "My Analytics",
+    "settings": "Settings"
+  },
+  "client_analytics": {
+    "title": "My Analytics",
+    "subtitle": "An overview of your cases and interactions",
+    "documents": "Documents",
+    "appointments": "Your Appointments",
+    "no_appts": "No appointments yet.",
+    "activity_30": "30-Day Activity",
+    "uploaded_file": "Document uploaded",
+    "empty": "Start a new case to see your analytics here."
+  },
+  "settings": {
+    "profile": "Profile",
+    "display_name": "Display name",
+    "language": "Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "back": "Back",
+    "close": "Close",
+    "failed": "Failed"
+  },
+  "team_page": {
+    "super_admin": "Super Admin",
+    "admin_required": "Admin access required.",
+    "search_ph": "Search name or email",
+    "all_roles": "All roles",
+    "empty": "No team members found.",
+    "col_name": "Name",
+    "col_email": "Email",
+    "col_role": "Role",
+    "col_joined": "Joined",
+    "col_change": "Change",
+    "role_updated": "Role updated"
+  },
+  "messages_page": {
+    "title": "Messages",
+    "subtitle": "Recent conversations across your cases.",
+    "empty": "No messages yet.",
+    "user": "User",
+    "case": "Case"
+  },
+  "documents_page": {
+    "title": "Documents",
+    "subtitle": "Files attached to your cases.",
+    "empty": "No documents yet.",
+    "case": "Case",
+    "download": "Download",
+    "download_failed": "Download failed"
+  },
+  "analytics_page": {
+    "no_assigned": "No assigned cases yet.",
+    "no_activity": "No recent activity."
+  },
+  "appointment": {
+    "section_title": "Book a Consultation",
+    "section_desc": "Tell us about your matter and a member of our team will reach out shortly.",
+    "full_name": "Full Name",
+    "full_name_ph": "Jane Doe",
+    "email": "Email Address",
+    "email_ph": "you@example.com",
+    "service": "Service Needed",
+    "service_ph": "Select a service",
+    "preferred_date": "Preferred Date",
+    "preferred_time": "Preferred Time",
+    "message": "Short Message",
+    "message_ph": "Briefly describe your legal matter (optional)…",
+    "submit": "Request Consultation",
+    "submitting": "Sending…",
+    "success_title": "Appointment request sent",
+    "success_desc": "We will contact you shortly.",
+    "book_another": "Book another appointment",
+    "error_required": "Please fill in all required fields.",
+    "error_email": "Please enter a valid email address.",
+    "error_generic": "Could not submit your request.",
+    "services": {
+      "corporate": "Corporate Law",
+      "civil_litigation": "Civil Litigation",
+      "intellectual_property": "Intellectual Property",
+      "real_estate": "Real Estate Law",
+      "family": "Family Law",
+      "employment": "Employment Law"
+    }
+  },
+  "appointments": {
+    "title": "Appointments",
+    "subtitle": "Consultation requests from clients",
+    "stat_total": "Total",
+    "stat_new": "New",
+    "stat_scheduled": "Scheduled",
+    "stat_completed": "Completed",
+    "search_ph": "Search by name, email, message…",
+    "all_statuses": "All statuses",
+    "all_services": "All services",
+    "empty_title": "No appointments yet",
+    "empty_desc": "New consultation requests will appear here.",
+    "preferred": "Preferred",
+    "status_label": "Status",
+    "assign_to": "Assign to lawyer",
+    "assigned_to": "Assigned to",
+    "internal_notes": "Internal notes",
+    "notes_ph": "Add notes (auto-saved on blur)…",
+    "load_error": "Could not load appointments",
+    "update_error": "Update failed",
+    "updated": "Appointment updated",
+    "assigned": "Appointment assigned",
+    "status": {
+      "new": "New",
+      "contacted": "Contacted",
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "ai_assistant": {
+    "hero_title": "LegalPedia AI Legal Assistant",
+    "hero_subtitle": "Ask legal questions in English, Chinese, or Mongolian and receive professional legal guidance.",
+    "badge_confidential": "Confidential",
+    "badge_licensed": "Backed by licensed attorneys",
+    "badge_multi": "EN · 中文 · Монгол",
+    "menu": "Menu",
+    "new_chat": "New chat",
+    "history": "Conversation history",
+    "no_history": "No conversations yet.",
+    "suggested_topics": "Suggested topics",
+    "clear_chat": "Clear current chat",
+    "empty_title": "How can I help with your legal needs?",
+    "empty_desc": "Pick a starter or type your own question below.",
+    "placeholder": "Ask a legal question…",
+    "send": "Send",
+    "stop": "Stop",
+    "regenerate": "Regenerate",
+    "copy": "Copy response",
+    "copied": "Copied to clipboard",
+    "print": "Print",
+    "good": "Good response",
+    "bad": "Bad response",
+    "fb_thanks": "Thanks for the feedback!",
+    "fb_noted": "Noted — we will improve.",
+    "disclaimer": "AI provides general information. For official advice, consult a lawyer.",
+    "cta_title": "Need a real lawyer?",
+    "cta_desc": "Book a confidential consultation with our team.",
+    "cta_book": "Book consultation",
+    "related": "Related",
+    "related_services": "Our services",
+    "related_docs": "Legal publications",
+    "related_portal": "Client portal",
+    "related_signin": "Sign in to portal",
+    "related_upload": "Upload documents",
+    "faq": "FAQ",
+    "faq_text": "Conversations are private. AI replies are general information only. For binding legal advice, contact a licensed attorney.",
+    "thinking": "Thinking…",
+    "loading": "Loading…",
+    "starter_company": "How do I register a company in Mongolia?",
+    "starter_lease": "Review a lease agreement",
+    "starter_employment": "Employment contract guidance",
+    "starter_family": "Family law consultation",
+    "topic_corporate": "Corporate law",
+    "topic_real_estate": "Real estate",
+    "topic_family": "Family law",
+    "topic_litigation": "Litigation",
+    "rename": "Rename",
+    "delete": "Delete",
+    "search_history": "Search conversations…",
+    "guest_remaining": "{{n}} free left"
+  },
+  "login_modal": {
+    "title": "Continue Your Legal Consultation",
+    "description": "You have used your free questions. Sign in or create an account to save your conversation history and continue receiving personalized legal assistance.",
+    "sign_in": "Sign In",
+    "create_account": "Create Account",
+    "cancel": "Cancel",
+    "benefit_unlimited": "Unlimited AI conversations",
+    "benefit_history": "Save chat history",
+    "benefit_upload": "Upload legal documents",
+    "benefit_book": "Book consultations",
+    "benefit_portal": "Secure client portal"
+  },
+  "admin": {
+    "common": {
+      "loading": "Loading…",
+      "save": "Save",
+      "save_changes": "Save changes",
+      "create": "Create",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "actions": "Actions",
+      "status": "Status",
+      "order": "Order",
+      "display_order": "Display order",
+      "published": "Published",
+      "live": "Live",
+      "draft": "Draft",
+      "hidden": "Hidden",
+      "name": "Name",
+      "email": "Email",
+      "title": "Title",
+      "date": "Date",
+      "role": "Role",
+      "category": "Category",
+      "description": "Description",
+      "key": "Key",
+      "search": "Search…",
+      "failed_load": "Failed to load",
+      "save_failed": "Save failed",
+      "delete_failed": "Delete failed",
+      "deleted": "Deleted",
+      "updated": "Updated",
+      "created": "Created",
+      "confirm_delete": "Delete this item?"
+    },
+    "nav": {
+      "overview": "Overview",
+      "pages": "Pages",
+      "publications": "Publications",
+      "doc_categories": "Doc Categories",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "blog_news": "Blog / News",
+      "team": "Team",
+      "faqs": "FAQs",
+      "media": "Media Library",
+      "seo": "SEO",
+      "analytics": "Analytics",
+      "leads": "Leads",
+      "document_payments": "Document Payments",
+      "users_roles": "Users & Roles",
+      "content": "Content",
+      "site": "Site",
+      "website_cms": "Website CMS",
+      "legal_operations": "Legal Operations"
+    },
+    "shell": {
+      "view_site": "View site",
+      "legal_ops": "Legal Ops",
+      "administrator": "Administrator",
+      "settings": "Settings",
+      "sign_out": "Sign Out",
+      "admin": "Admin",
+      "seo_settings": "SEO Settings",
+      "website_analytics": "Website Analytics"
+    },
+    "dashboard": {
+      "services": "Services",
+      "publications": "Publications",
+      "blog_posts": "Blog Posts",
+      "welcome_title": "Welcome to the Admin Dashboard",
+      "welcome_desc": "Use the sidebar to manage services, publications, and blog posts."
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "loading": "Loading analytics...",
+      "total_visitors": "Total Visitors",
+      "returning_visitors": "Returning Visitors",
+      "registered_users": "Registered Users",
+      "chat_messages": "Chat Messages",
+      "captured_leads": "Captured Leads",
+      "most_visited": "Most Visited Pages",
+      "no_data": "No page visit data yet.",
+      "visits": "visits"
+    },
+    "leads": {
+      "title": "Captured Leads",
+      "message": "Message",
+      "no_leads": "No leads captured yet.",
+      "deleted": "Lead deleted"
+    },
+    "users": {
+      "title": "User Management",
+      "super_admin_access": "Super Admin Access",
+      "only_super": "Only super admins can change user roles.",
+      "joined": "Joined",
+      "change_role": "Change Role",
+      "no_users": "No users found.",
+      "role_update_failed": "Failed to update role",
+      "role_assign_failed": "Failed to assign role",
+      "role_updated": "Role updated"
+    },
+    "faqs": {
+      "subtitle": "Create and translate frequently asked questions.",
+      "add": "Add FAQ",
+      "none": "No FAQs yet.",
+      "add_first": "Add the first one",
+      "question": "Question",
+      "edit": "Edit FAQ",
+      "new": "New FAQ",
+      "qa_required": "Question and answer are required",
+      "answer": "Answer",
+      "question_locale": "Question ({{locale}})",
+      "answer_locale": "Answer ({{locale}})",
+      "confirm_delete": "Delete this FAQ?"
+    },
+    "pages": {
+      "subtitle": "Manage editable copy for each public page.",
+      "new": "New page",
+      "quick_add": "Quick add standard pages:",
+      "none": "No page records yet.",
+      "page_key_required": "Page key is required",
+      "invalid_json": "Invalid JSON",
+      "page_key": "Page key",
+      "base_title": "Base title",
+      "base_content": "Base content (JSON)",
+      "title_locale": "Title ({{locale}})",
+      "content_locale": "Content ({{locale}}) (JSON)",
+      "edit_title": "Edit page: {{key}}",
+      "confirm_delete": "Delete this page record?"
+    },
+    "posts": {
+      "title": "Blog / News",
+      "add": "Add Post",
+      "edit": "Edit Post",
+      "none": "No posts yet.",
+      "content": "Content",
+      "published_status": "Published",
+      "confirm_delete": "Delete this post?"
+    },
+    "services": {
+      "title": "Services",
+      "add": "Add Service",
+      "edit": "Edit Service",
+      "none": "No services yet.",
+      "image_url": "Image URL",
+      "key_hint": "Key (corporate, litigation…)",
+      "published_visible": "Published (visible on site)",
+      "confirm_delete": "Delete this service?",
+      "full_desc": "Full description",
+      "benefits": "Benefits / sub-services (one per line)",
+      "benefits_hint": "One benefit per line"
+    },
+    "testimonials": {
+      "subtitle": "Client testimonials shown on the homepage.",
+      "add": "New testimonial",
+      "none": "No testimonials yet.",
+      "rating": "Rating",
+      "edit": "Edit testimonial",
+      "new": "New testimonial",
+      "name_required": "Name is required",
+      "quote_required": "Quote is required",
+      "rating_field": "Rating (1-5)",
+      "avatar_url": "Avatar URL",
+      "optional": "Optional",
+      "role_locale": "Role / title ({{locale}})",
+      "quote_locale": "Quote ({{locale}})",
+      "confirm_delete": "Delete this testimonial?"
+    },
+    "team": {
+      "subtitle": "Manage lawyer profiles displayed on the About page.",
+      "add": "Add member",
+      "none": "No team members yet.",
+      "add_first": "Add the first one",
+      "member": "Member",
+      "specialty": "Specialty",
+      "featured": "Featured",
+      "edit": "Edit member",
+      "new": "New team member",
+      "name_required": "Name is required",
+      "photo_url": "Photo URL",
+      "linkedin_url": "LinkedIn URL",
+      "role_locale": "Role ({{locale}})",
+      "specialty_locale": "Specialty ({{locale}})",
+      "bio_locale": "Bio ({{locale}})",
+      "confirm_delete": "Delete this team member?"
+    },
+    "seo": {
+      "subtitle": "Page titles, descriptions and keywords per locale.",
+      "new": "New entry",
+      "add_standard": "Add standard entries:",
+      "none": "No SEO entries yet.",
+      "page": "Page",
+      "page_key_required": "Page key is required",
+      "canonical_url": "Canonical URL",
+      "og_image": "OG image URL",
+      "default_title": "Default title",
+      "default_description": "Default description",
+      "default_keywords": "Default keywords",
+      "comma_separated": "comma, separated",
+      "title_locale": "Title ({{locale}})",
+      "description_locale": "Description ({{locale}})",
+      "keywords_locale": "Keywords ({{locale}})",
+      "edit_title": "Edit SEO: {{key}}",
+      "new_title": "New SEO entry",
+      "confirm_delete": "Delete SEO record?"
+    },
+    "categories": {
+      "title": "Legal Document Categories",
+      "subtitle": "Organize the marketplace into practice areas.",
+      "add": "Add Category",
+      "edit": "Edit Category",
+      "icon": "Icon (lucide name)",
+      "name_default": "Name (default)",
+      "name_locale": "Name ({{locale}})",
+      "confirm_delete": "Delete?"
+    },
+    "publications": {
+      "title": "Publications",
+      "subtitle": "Manage all news, research, and legal documents from one place.",
+      "categories": "Categories",
+      "new": "New Publication",
+      "search_title": "Search title…",
+      "type": "Type",
+      "all_types": "All types",
+      "news_research": "News & Research",
+      "legal_documents": "Legal Documents",
+      "all_statuses": "All statuses",
+      "unpublished": "Unpublished",
+      "col_price": "Price",
+      "col_downloads": "Downloads",
+      "col_updated": "Updated",
+      "type_news": "News",
+      "type_legal": "Legal Doc",
+      "untitled": "Untitled",
+      "free": "Free",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "preview": "Preview",
+      "none": "No publications match these filters.",
+      "published_live": "Published live",
+      "moved_unpublished": "Moved to unpublished",
+      "deleted": "Deleted",
+      "confirm_delete": "Delete \"{{title}}\"? This cannot be undone.",
+      "showing": "Showing {{from}}–{{to}} of {{total}}",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "editor": {
+      "back": "Back",
+      "new_publication": "New publication",
+      "editing": "Editing · {{status}}",
+      "untitled": "Untitled",
+      "preview": "Preview",
+      "save_draft": "Save draft",
+      "unpublish": "Unpublish",
+      "publish": "Publish",
+      "title_required": "Title is required",
+      "not_found": "Not found",
+      "draft_saved": "Draft saved",
+      "published": "Published",
+      "unpublished": "Unpublished",
+      "saved": "Saved",
+      "save_failed": "Save failed",
+      "file_uploaded": "File uploaded",
+      "upload_failed": "Upload failed",
+      "basic_info": "Basic information",
+      "basic_info_desc": "Core details visible across the site.",
+      "field_title": "Title",
+      "title_ph": "e.g. Employment Contract Template",
+      "slug": "Slug",
+      "slug_hint": "Used in the public URL. Auto-generated from title.",
+      "short_summary": "Short summary",
+      "short_summary_hint": "Appears in cards and previews.",
+      "description": "Description",
+      "description_hint": "Plain-text description used for SEO fallback.",
+      "multilingual": "Multilingual content",
+      "multilingual_desc": "Localized title, summary, and rich-text body per language.",
+      "title_locale": "Title ({{locale}})",
+      "summary_locale": "Summary ({{locale}})",
+      "body_locale": "Body ({{locale}})",
+      "body_ph": "Write the {{locale}} article body…",
+      "seo": "SEO & discovery",
+      "seo_desc": "How this appears in search and social.",
+      "meta_title": "Meta title",
+      "meta_title_ph": "Defaults to title",
+      "meta_description": "Meta description",
+      "meta_description_ph": "Defaults to summary",
+      "keywords": "Keywords",
+      "keywords_hint": "Press Enter to add. Used for site search and SEO.",
+      "keywords_ph": "Add keyword and press Enter",
+      "featured": "Featured",
+      "trending": "Trending",
+      "type": "Publication type",
+      "type_news": "News & Research",
+      "type_legal": "Legal Document",
+      "category": "Category",
+      "select_category": "Select a category",
+      "thumbnail": "Thumbnail",
+      "click_upload": "Click to upload",
+      "document_file": "Document file",
+      "replace": "Replace",
+      "upload_doc": "Upload PDF / DOC / DOCX",
+      "pricing": "Pricing & access",
+      "free_download": "Free download",
+      "price_cents": "Price (cents)",
+      "currency": "Currency",
+      "languages": "Available languages"
+    },
+    "payments": {
+      "title": "Document Payments",
+      "subtitle": "Review submitted payment confirmation codes and authorize downloads.",
+      "document": "Document",
+      "customer": "Customer",
+      "confirmation_code": "Confirmation code",
+      "amount": "Amount",
+      "action": "Action",
+      "none": "No payment requests yet.",
+      "authorize": "Authorize",
+      "decline": "Decline",
+      "update_failed": "Update failed",
+      "authorized": "Download authorized",
+      "declined": "Request declined"
+    },
+    "media": {
+      "subtitle": "Upload and reuse images and documents across the site.",
+      "upload": "Upload",
+      "uploading": "Uploading…",
+      "none": "No media yet. Upload your first image or document.",
+      "uploaded": "Uploaded",
+      "upload_failed": "Upload failed",
+      "storage_delete_failed": "Storage delete failed",
+      "record_delete_failed": "Record delete failed",
+      "url_copied": "URL copied",
+      "confirm_delete": "Delete {{name}}?"
+    }
+  }
 }

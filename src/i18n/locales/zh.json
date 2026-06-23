@@ -4,7 +4,73 @@
     "about": "关于我们",
     "services": "服务领域",
     "publications": "出版物",
+    "resources": "资源中心",
+    "news_research": "新闻与研究",
+    "news_research_desc": "法律洞察、文章、新闻与研究。",
+    "legal_documents": "法律文档",
+    "legal_documents_desc": "浏览、预览并购买专业法律模板。",
+    "ai_assistant": "AI 助手",
     "contact": "联系我们"
+  },
+  "news_research": {
+    "title": "新闻与研究",
+    "subtitle": "来自 LegalPedia 团队的洞察、法律新闻和研究。",
+    "search_placeholder": "搜索文章…",
+    "featured": "精选",
+    "all": "全部",
+    "read_article": "阅读文章",
+    "read_min": "阅读约 {{n}} 分钟",
+    "docs_cta_title": "需要现成可用的法律文档？",
+    "docs_cta_desc": "浏览我们的专业合同、协议与合规模板市场。",
+    "docs_cta_btn": "进入法律文档"
+  },
+  "legal_docs": {
+    "title": "法律文档",
+    "subtitle": "高质量法律模板、合同与合规文档 — 即刻下载。",
+    "search_placeholder": "搜索文档…",
+    "price": "价格",
+    "price_all": "全部价格",
+    "price_free": "免费",
+    "price_paid": "付费",
+    "sort": "排序",
+    "sort_newest": "最新",
+    "sort_popular": "最热门",
+    "sort_price_asc": "价格：从低到高",
+    "sort_price_desc": "价格：从高到低",
+    "all_categories": "全部类别",
+    "featured": "精选",
+    "free": "免费",
+    "empty": "暂无匹配的文档。",
+    "back": "返回文档",
+    "not_found": "未找到文档。",
+    "preview_title": "内容预览",
+    "downloads": "次下载",
+    "buy_now": "购买并下载",
+    "get_free": "免费获取",
+    "download": "下载",
+    "owned": "您已拥有此文档",
+    "secure_payment": "通过 Stripe 安全付款",
+    "instant_download": "购买后即可下载",
+    "editable_format": "专业起草，可编辑",
+    "login_required": "请登录以购买和下载。",
+    "sign_in": "登录",
+    "purchase_success": "购买成功 — 文档已准备就绪。",
+    "purchase_cancelled": "购买已取消。",
+    "purchase_error": "无法启动结账。",
+    "download_started": "下载已开始。",
+    "download_error": "下载失败。",
+    "pay_how_title": "如何付款",
+    "pay_instructions": "请将上方显示的金额转账至以下账户，然后输入您的付款确认码。管理员将核实您的付款并授权下载。",
+    "pay_account": "银行：Khan Bank\n账户名称：LegalPedia LLC\n账号：5000 1234 5678\n备注：使用文件标题",
+    "code_label": "付款确认码",
+    "code_placeholder": "输入您的交易/确认码",
+    "submit_request": "提交以供授权",
+    "request_submitted": "已提交！管理员将很快授权您下载。",
+    "request_pending": "您的付款正在等待授权。",
+    "request_pending_help": "管理员确认付款后，下载将在此处解锁。",
+    "request_rejected": "您的付款请求被拒绝。请联系我们。",
+    "code_required": "请输入您的确认码。",
+    "submit_error": "无法提交您的请求。请重试。"
   },
   "hero": {
     "slide1": "正义·诚信·卓越",
@@ -12,13 +78,78 @@
     "slide3": "值得信赖的法律合作伙伴，服务超过20年",
     "subtitle": "我们在广泛的法律领域提供专业的法律顾问和代理服务，致力于为客户取得最佳结果。",
     "cta_consult": "预约咨询",
-    "cta_services": "查看服务"
+    "cta_services": "查看服务",
+    "badge": "现代法律科技平台"
   },
   "home": {
     "intro_title": "卓越法律服务的传承",
-    "intro_text": "LegalPedia 成立于2003年，以诚信和奉献精神提供卓越的法律服务而享有盛誉。我们将深厚的法律专业知识与以客户为中心的方法相结合，以取得出色的成果。",
+    "intro_text": "LegalPedia，以诚信和奉献精神提供卓越的法律服务而享有盛誉。我们将深厚的法律专业知识与以客户为中心的方法相结合，以取得出色的成果。",
     "services_title": "我们的业务领域",
-    "testimonials_title": "客户评价"
+    "testimonials_title": "客户评价",
+    "practice_subtitle": "涵盖现代法律实践各个领域的专业法律顾问。",
+    "testimonials_subtitle": "深受蒙古及海外企业、创业者和家庭的信赖。",
+    "faq_title": "常见问题",
+    "floating": {
+      "ai": {
+        "title": "AI 法律助手",
+        "desc": "由 LegalPedia AI 提供的智能多语言法律指导。",
+        "cta": "与 AI 对话"
+      },
+      "dashboard": {
+        "title": "客户协作门户",
+        "desc": "安全上传、审阅并与律师共同管理法律文件。",
+        "cta": "进入仪表板"
+      },
+      "services": {
+        "title": "法律服务与出版物",
+        "desc": "探索法律服务、合同及专业法律资源。",
+        "cta": "查看服务"
+      }
+    },
+    "journey": {
+      "title": "您的法律之旅",
+      "subtitle": "一段人性化的故事——从最初的疑虑,到化解后的宁静释然。",
+      "cta": "开启您的旅程",
+      "s1": {
+        "emotion": "不知所措",
+        "title": "困惑",
+        "desc": "法律难题出现——不确定、压力和零散信息让人难以承受。"
+      },
+      "s2": {
+        "emotion": "满怀希望",
+        "title": "寻求帮助",
+        "desc": "第一次致电 LegalPedia——希望取代犹豫的时刻。"
+      },
+      "s3": {
+        "emotion": "获得支持",
+        "title": "法律支援",
+        "desc": "经验丰富的律师倾听、建议,并在每一步陪伴您。"
+      },
+      "s4": {
+        "emotion": "如释重负",
+        "title": "成功",
+        "desc": "问题得到解决。内心安宁、信心恢复,迎来更光明的篇章。"
+      }
+    },
+    "portal": {
+      "badge": "LegalPedia 客户门户",
+      "title": "您的法律世界，尽在一个仪表板",
+      "subtitle": "通过一个安全的客户门户管理您的案件、文件以及与法律团队的沟通——清晰透明，让您安心。",
+      "window": "LegalPedia · 我的仪表板",
+      "case1": "合同审查 — Acme 公司",
+      "case2": "财产纠纷立案",
+      "case3": "雇佣协议",
+      "f1_title": "跟踪每个案件",
+      "f1_desc": "在一个安全的地方实时查看所有事务的状态。",
+      "f2_title": "共享文件",
+      "f2_desc": "随时安全地与您的法律团队上传和交换文件。",
+      "f3_title": "保持联系",
+      "f3_desc": "与您的律师沟通，并即时接收更新通知。",
+      "f4_title": "个人分析",
+      "f4_desc": "通过清晰的洞察可视化您的案件、活动和进度。",
+      "cta": "进入客户门户",
+      "cta2": "登录"
+    }
   },
   "about": {
     "title": "关于 LegalPedia",
@@ -31,13 +162,75 @@
     "vision": "成为以法律创新、客户满意度和社区影响力著称的领先法律平台。",
     "team_title": "我们的法律团队",
     "timeline_title": "我们的成长历程",
+    "values_title": "我们的核心价值观",
+    "values": [
+      {
+        "title": "诚信",
+        "desc": "我们在所有法律事务中坚持诚实与透明。"
+      },
+      {
+        "title": "保密",
+        "desc": "我们以严格的隐私和谨慎处理您的信息。"
+      },
+      {
+        "title": "专业卓越",
+        "desc": "我们以精准提供高质量的法律服务。"
+      },
+      {
+        "title": "客户至上",
+        "desc": "我们优先考虑客户的需求与结果。"
+      }
+    ],
+    "audience_title": "我们服务的对象",
+    "audience": [
+      {
+        "title": "个人",
+        "desc": "个人法律事务与咨询。"
+      },
+      {
+        "title": "企业",
+        "desc": "公司与合规法律服务。"
+      },
+      {
+        "title": "初创公司",
+        "desc": "为成长型企业提供法律支持。"
+      },
+      {
+        "title": "房产客户",
+        "desc": "房地产与物业法律服务。"
+      }
+    ],
     "timeline": [
-      { "year": "2015", "title": "创立", "desc": "LegalPedia成立，致力于提供优质、可及的法律服务。" },
-      { "year": "2017", "title": "建立信任", "desc": "通过持续的优质服务和口碑推荐，扩大了客户群体。" },
-      { "year": "2019", "title": "服务扩展", "desc": "新增知识产权和劳动法业务领域。" },
-      { "year": "2021", "title": "数字化转型", "desc": "推出数字化客户服务和AI法律助手。" },
-      { "year": "2023", "title": "区域认可", "desc": "被评为该地区最值得信赖的法律机构之一。" },
-      { "year": "2026", "title": "今天", "desc": "继续壮大，以专业团队服务多个业务领域的客户。" }
+      {
+        "year": "2015",
+        "title": "创立",
+        "desc": "LegalPedia成立，致力于提供优质、可及的法律服务。"
+      },
+      {
+        "year": "2017",
+        "title": "建立信任",
+        "desc": "通过持续的优质服务和口碑推荐，扩大了客户群体。"
+      },
+      {
+        "year": "2019",
+        "title": "服务扩展",
+        "desc": "新增知识产权和劳动法业务领域。"
+      },
+      {
+        "year": "2021",
+        "title": "数字化转型",
+        "desc": "推出数字化客户服务和AI法律助手。"
+      },
+      {
+        "year": "2023",
+        "title": "区域认可",
+        "desc": "被评为该地区最值得信赖的法律机构之一。"
+      },
+      {
+        "year": "2026",
+        "title": "今天",
+        "desc": "继续壮大，以专业团队服务多个业务领域的客户。"
+      }
     ]
   },
   "services": {
@@ -47,49 +240,125 @@
     "related": "相关服务",
     "benefits": "主要优势",
     "contact_lawyer": "联系律师",
+    "faq_title": "常见问题",
+    "faqs": [
+      {
+        "q": "整个流程需要多长时间？",
+        "a": "时间因案件复杂程度而异，但大多数事务在初次咨询后 2–8 周内推进。"
+      },
+      {
+        "q": "需要哪些文件？",
+        "a": "请携带与您事务相关的合同、身份证件和往来函件。我们将在受理时提出具体要求。"
+      },
+      {
+        "q": "如何开始？",
+        "a": "通过联系表单或聊天机器人提交咨询，律师将在一个工作日内回复。"
+      },
+      {
+        "q": "需要先咨询吗？",
+        "a": "需要，初次咨询有助于我们了解您的需求并推荐合适的方案。"
+      }
+    ],
     "items": {
       "corporate": {
         "title": "公司法",
         "short": "为企业组建、治理、并购提供专业指导。",
         "full": "我们的公司法团队为各阶段的企业提供全面的法律支持。从实体组建和公司治理到复杂的并购交易，我们帮助组织自信地应对法律环境。",
-        "benefits": ["战略性业务架构", "风险缓解", "合规管理", "并购咨询"]
+        "benefits": [
+          "战略性业务架构",
+          "风险缓解",
+          "合规管理",
+          "并购咨询"
+        ]
       },
       "litigation": {
         "title": "民事诉讼",
         "short": "在商业纠纷和民事诉讼中提供积极的代理。",
         "full": "当纠纷出现时，我们的诉讼团队随时准备积极保护您的利益。",
-        "benefits": ["经验丰富的出庭律师", "战略案件管理", "替代性争议解决", "经济高效的诉讼"]
+        "benefits": [
+          "经验丰富的出庭律师",
+          "战略案件管理",
+          "替代性争议解决",
+          "经济高效的诉讼"
+        ]
       },
       "ip": {
         "title": "知识产权",
         "short": "保护您的创新、商标、版权和商业秘密。",
         "full": "创新值得保护。我们的知识产权律师帮助客户在所有行业中保护和捍卫其知识产权。",
-        "benefits": ["专利申请", "商标注册", "版权保护", "知识产权组合管理"]
+        "benefits": [
+          "专利申请",
+          "商标注册",
+          "版权保护",
+          "知识产权组合管理"
+        ]
       },
       "realestate": {
         "title": "房地产法",
         "short": "为房产交易和开发提供全面的法律服务。",
         "full": "我们的房地产业务涵盖住宅和商业交易、土地使用和分区、建筑法和财产纠纷。",
-        "benefits": ["交易支持", "产权审查", "分区合规", "租赁谈判"]
+        "benefits": [
+          "交易支持",
+          "产权审查",
+          "分区合规",
+          "租赁谈判"
+        ]
       },
       "family": {
         "title": "家庭法",
         "short": "为离婚、监护权和家庭事务提供贴心的法律顾问。",
         "full": "家庭法律事务需要敏感性和专业知识。我们的家庭法律师在离婚、子女监护、收养和婚前协议方面提供贴心的代理。",
-        "benefits": ["调解服务", "儿童权益保护", "资产保护", "保密处理"]
+        "benefits": [
+          "调解服务",
+          "儿童权益保护",
+          "资产保护",
+          "保密处理"
+        ]
       },
       "employment": {
         "title": "劳动法",
         "short": "保护雇主和员工在工作场所的权利。",
         "full": "我们为雇主和员工提供有关工作场所法律问题的建议。",
-        "benefits": ["政策制定", "争议解决", "合规审计", "合同谈判"]
+        "benefits": [
+          "政策制定",
+          "争议解决",
+          "合规审计",
+          "合同谈判"
+        ]
       }
-    }
+    },
+    "all": "全部服务",
+    "categories": "业务领域",
+    "sub_intro": "我们的{{area}}团队为{{topic}}提供专注、务实的支持。从首次咨询到最终解决，我们将复杂的法律要求转化为清晰、可行的步骤，让您始终了解自己的处境以及接下来会发生什么。",
+    "sub_overview_title": "本服务涵盖内容",
+    "sub_overview": "{{topic}}是我们{{area}}业务的核心部分。我们评估您的情况，识别风险与机遇，并准备保护您利益所需的文件、申报和策略。无论您是个人还是企业，我们的建议都将根据您的具体目标和预算量身定制。",
+    "sub_included_title": "包含内容",
+    "sub_inc_1": "对您的{{topic}}事项进行初步审查和评估",
+    "sub_inc_2": "就您的权利和选择提供清晰的书面建议",
+    "sub_inc_3": "准备和审查所有必需文件",
+    "sub_inc_4": "代表您进行代理和谈判",
+    "sub_inc_5": "持续更新并直接联系您的律师",
+    "sub_inc_6": "在开始前商定透明的费用",
+    "sub_process_title": "我们如何与您合作",
+    "sub_step_1_t": "咨询",
+    "sub_step_1_d": "我们倾听您的情况，解释法律如何适用于{{topic}}，并概述可能的前进路径。",
+    "sub_step_2_t": "策略与报价",
+    "sub_step_2_d": "我们商定明确的计划和透明的费用，让您没有意外。",
+    "sub_step_3_t": "行动",
+    "sub_step_3_d": "我们准备文件、处理申报，并在谈判或诉讼中代表您。",
+    "sub_step_4_t": "解决",
+    "sub_step_4_d": "我们将您的事项办理至完成，并就后续步骤提供建议。",
+    "sub_why_title": "为何重要",
+    "sub_why": "正确处理{{topic}}可以使您免于日后代价高昂的错误、延误和纠纷。我们经验丰富的{{area}}团队让您确信每个细节都得到正确处理，您的利益得到充分保护。",
+    "sub_covers_desc": "{{area}}中的{{topic}}服务。"
   },
   "publications": {
     "title": "出版物与资源",
     "subtitle": "了解我们最新的法律见解和研究",
     "download": "下载",
+    "preview": "预览",
+    "type_label": "类型",
+    "size_label": "大小",
     "filter_all": "全部",
     "filter_news": "新闻",
     "filter_legal": "法律",
@@ -104,8 +373,8 @@
     "form_message": "您的留言",
     "form_submit": "发送消息",
     "office_title": "我们的办公室",
-    "address": "蒙古国乌兰巴托市正义大道123号500室，邮编10001",
-    "phone": "+976 1234 5678",
+    "address": "纽约州纽约市正义大道123号500室 10001",
+    "phone": "+1 (555) 123-4567",
     "email": "info@legalpedia.com",
     "hours": "周一至周五: 上午9:00 - 下午6:00",
     "chatbot_title": "AI 法律助手",
@@ -124,13 +393,41 @@
     "cta_subtitle": "我们经验丰富的团队随时准备为您提供每一步的指导。",
     "cta_button": "联系律师",
     "steps": [
-      { "title": "访问平台", "description": "在线浏览我们的服务", "detail": "浏览我们的网站，了解我们的业务领域、团队以及我们如何帮助您解决法律需求。" },
-      { "title": "选择问题", "description": "找到合适的服务", "detail": "根据您的情况，从公司法、诉讼、知识产权、房地产、家庭法或劳动法中选择。" },
-      { "title": "了解详情", "description": "了解您的选择", "detail": "阅读每项服务的详细信息，包括优势、流程和预期结果。" },
-      { "title": "与我们互动", "description": "聊天或直接联系", "detail": "使用我们的AI法律助手快速获取答案，或直接联系我们预约咨询。" },
-      { "title": "提交咨询", "description": "分享您的案件详情", "detail": "填写联系表格或上传相关文件，以便我们的团队审查您的情况。" },
-      { "title": "律师审查", "description": "专业评估", "detail": "合格律师审查您的案件，研究适用法律，并制定量身定制的策略。" },
-      { "title": "获得解决方案", "description": "获取法律解决方案", "detail": "获得全面的法律解决方案、持续支持和后续步骤指导。" }
+      {
+        "title": "访问平台",
+        "description": "在线浏览我们的服务",
+        "detail": "浏览我们的网站，了解我们的业务领域、团队以及我们如何帮助您解决法律需求。"
+      },
+      {
+        "title": "选择问题",
+        "description": "找到合适的服务",
+        "detail": "根据您的情况，从公司法、诉讼、知识产权、房地产、家庭法或劳动法中选择。"
+      },
+      {
+        "title": "了解详情",
+        "description": "了解您的选择",
+        "detail": "阅读每项服务的详细信息，包括优势、流程和预期结果。"
+      },
+      {
+        "title": "与我们互动",
+        "description": "聊天或直接联系",
+        "detail": "使用我们的AI法律助手快速获取答案，或直接联系我们预约咨询。"
+      },
+      {
+        "title": "提交咨询",
+        "description": "分享您的案件详情",
+        "detail": "填写联系表格或上传相关文件，以便我们的团队审查您的情况。"
+      },
+      {
+        "title": "律师审查",
+        "description": "专业评估",
+        "detail": "合格律师审查您的案件，研究适用法律，并制定量身定制的策略。"
+      },
+      {
+        "title": "获得解决方案",
+        "description": "获取法律解决方案",
+        "detail": "获得全面的法律解决方案、持续支持和后续步骤指导。"
+      }
     ]
   },
   "chatbot": {
@@ -143,33 +440,872 @@
     "action_documents": "📄 下载文件",
     "action_documents_msg": "我如何获取你们的法律出版物和文件？",
     "action_contact": "📞 联系律师",
-    "action_contact_msg": "我想就我的案件与律师交谈。"
+    "action_contact_msg": "我想就我的案件与律师交谈。",
+    "bubble_messages": [
+      "需要法律帮助？立即咨询。",
+      "与我们的 AI 法律助手对话。",
+      "有简短法律问题？现在就问。"
+    ]
   },
   "testimonials": [
-    { "name": "詹姆斯·莫里森", "role": "TechVentures公司首席执行官", "text": "出色的法律代理。他们的团队以卓越的专业精神和对细节的关注处理了我们的公司重组。" },
-    { "name": "陈莎拉", "role": "房地产开发商", "text": "我与许多律师事务所合作过，但没有一家能与这个团队的奉献精神和专业知识相比。" },
-    { "name": "罗伯特·威廉姆斯", "role": "小企业主", "text": "他们花时间了解我的业务需求，并提供了实用、经济高效的法律解决方案。强烈推荐。" }
+    {
+      "name": "詹姆斯·莫里森",
+      "role": "TechVentures公司首席执行官",
+      "text": "出色的法律代理。他们的团队以卓越的专业精神和对细节的关注处理了我们的公司重组。"
+    },
+    {
+      "name": "陈莎拉",
+      "role": "房地产开发商",
+      "text": "我与许多律师事务所合作过，但没有一家能与这个团队的奉献精神和专业知识相比。"
+    },
+    {
+      "name": "罗伯特·威廉姆斯",
+      "role": "小企业主",
+      "text": "他们花时间了解我的业务需求，并提供了实用、经济高效的法律解决方案。强烈推荐。"
+    }
   ],
   "whyChoose": {
     "title": "为什么选择 LegalPedia",
     "subtitle": "我们将法律专业知识与对客户成功的承诺相结合，在每次服务中提供值得信赖的法律顾问。",
     "experience_title": "客户体验",
     "points": [
-      { "title": "严格保密", "desc": "每个案件都以最高级别的隐私和审慎处理，确保您的信息得到保护。" },
-      { "title": "专业法律支持", "desc": "我们经验丰富的律师针对您的具体法律需求提供全面、深入研究的法律顾问。" },
-      { "title": "多语言服务", "desc": "我们以英语、蒙古语和中文为客户提供服务，确保跨语言的清晰沟通。" },
-      { "title": "以客户为中心", "desc": "我们优先了解您的目标，制定符合您最佳利益的策略。" }
+      {
+        "title": "严格保密",
+        "desc": "每个案件都以最高级别的隐私和审慎处理，确保您的信息得到保护。"
+      },
+      {
+        "title": "专业法律支持",
+        "desc": "我们经验丰富的律师针对您的具体法律需求提供全面、深入研究的法律顾问。"
+      },
+      {
+        "title": "多语言服务",
+        "desc": "我们以英语、蒙古语和中文为客户提供服务，确保跨语言的清晰沟通。"
+      },
+      {
+        "title": "以客户为中心",
+        "desc": "我们优先了解您的目标，制定符合您最佳利益的策略。"
+      }
     ],
     "quotes": [
-      { "text": "从第一次咨询开始，我就感到被真正倾听了。他们的建议精准且可操作。", "author": "D. 巴特巴亚尔", "role": "企业主" },
-      { "text": "LegalPedia以我从未体验过的专业水平处理了我们的跨境合同。", "author": "L. 王", "role": "进出口经理" },
-      { "text": "他们用我能理解的方式解释了复杂的法律事务。真正以客户为先。", "author": "T. 蒙赫策策格", "role": "个人客户" }
+      {
+        "text": "从第一次咨询开始，我就感到被真正倾听了。他们的建议精准且可操作。",
+        "author": "D. 巴特巴亚尔",
+        "role": "企业主"
+      },
+      {
+        "text": "LegalPedia以我从未体验过的专业水平处理了我们的跨境合同。",
+        "author": "L. 王",
+        "role": "进出口经理"
+      },
+      {
+        "text": "他们用我能理解的方式解释了复杂的法律事务。真正以客户为先。",
+        "author": "T. 蒙赫策策格",
+        "role": "个人客户"
+      }
     ]
   },
   "team": [
-    { "name": "亚历山大·米切尔", "role": "管理合伙人", "specialty": "公司法与并购", "bio": "拥有20余年公司法经验，亚历山大以战略增长和客户关系为核心领导事务所。" },
-    { "name": "陈维多利亚", "role": "高级合伙人", "specialty": "知识产权", "bio": "维多利亚专注于科技和创意产业的创新保护，擅长专利和商标法。" },
-    { "name": "大卫·理查森", "role": "合伙人", "specialty": "民事诉讼", "bio": "大卫在争议解决方面采取战略方法，在复杂商业诉讼案件中拥有出色的业绩记录。" },
-    { "name": "埃琳娜·巴斯克斯", "role": "律师", "specialty": "家庭法", "bio": "埃琳娜在家庭事务中提供富有同理心且高效的法律咨询，专注于调解和儿童权益保护。" }
-  ]
+    {
+      "name": "亚历山大·米切尔",
+      "role": "管理合伙人",
+      "specialty": "公司法与并购",
+      "bio": "拥有20余年公司法经验，亚历山大以战略增长和客户关系为核心领导事务所。"
+    },
+    {
+      "name": "陈维多利亚",
+      "role": "高级合伙人",
+      "specialty": "知识产权",
+      "bio": "维多利亚专注于科技和创意产业的创新保护，擅长专利和商标法。"
+    },
+    {
+      "name": "大卫·理查森",
+      "role": "合伙人",
+      "specialty": "民事诉讼",
+      "bio": "大卫在争议解决方面采取战略方法，在复杂商业诉讼案件中拥有出色的业绩记录。"
+    },
+    {
+      "name": "埃琳娜·巴斯克斯",
+      "role": "律师",
+      "specialty": "家庭法",
+      "bio": "埃琳娜在家庭事务中提供富有同理心且高效的法律咨询，专注于调解和儿童权益保护。"
+    }
+  ],
+  "auth": {
+    "login": "登录",
+    "signup": "创建账户",
+    "logout": "退出登录",
+    "email": "电子邮箱",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "forgot_password": "忘记密码？",
+    "reset_password": "重置密码",
+    "verify_email": "验证邮箱",
+    "check_email": "请查收邮件",
+    "verify_email_desc": "我们已向您发送验证链接以确认您的账户。",
+    "login_subtitle": "登录获得个性化体验",
+    "signup_subtitle": "创建您的 LegalPedia 账户",
+    "no_account": "还没有账户？",
+    "has_account": "已有账户？",
+    "google_login": "使用 Google 登录",
+    "or": "或",
+    "loading": "登录中...",
+    "invalid_credentials": "凭证无效",
+    "account_created": "账户创建成功",
+    "admin_login": "管理员登录",
+    "admin_subtitle": "登录以管理您的网站",
+    "no_admin_access": "您没有管理员权限。",
+    "submit": "登录",
+    "submitting": "登录中..."
+  },
+  "dashboard": {
+    "welcome": "欢迎",
+    "welcome_name": "欢迎您，{{name}}",
+    "subtitle": "您的安全法律门户",
+    "new_case": "新建案件",
+    "active_cases": "进行中案件",
+    "under_review": "审核中",
+    "pending_action": "待处理",
+    "completed": "已完成",
+    "total_cases": "案件总数",
+    "active_lawyers": "活跃律师",
+    "unassigned": "未分配",
+    "my_active_cases": "我的进行中案件",
+    "unassigned_queue": "未分配队列",
+    "recent_uploads": "最新上传",
+    "recent_comments": "最新评论",
+    "recent_activity": "最近动态",
+    "lawyer_workspace": "律师工作区",
+    "lawyer_workspace_subtitle": "实时案件、上传与协作。",
+    "operations": "运营中心",
+    "operations_subtitle": "案件、律师工作量与动态的实时视图。",
+    "lawyer_workload": "律师工作量",
+    "status_breakdown": "状态分布",
+    "no_lawyers": "系统中暂无律师。",
+    "active_count": "{{count}} 个进行中",
+    "my_cases": "我的案件",
+    "all_cases": "全部案件",
+    "unassigned_cases": "未分配案件",
+    "no_cases": "暂无案件。",
+    "no_activity": "暂无活动。",
+    "no_uploads": "暂无上传。",
+    "no_comments": "暂无评论。",
+    "no_match": "没有符合筛选的案件。",
+    "empty": "空",
+    "claim": "认领",
+    "view": "查看",
+    "claim_case": "认领案件",
+    "release": "释放",
+    "unassign": "取消分配",
+    "already_claimed": "已被认领",
+    "already_claimed_desc": "另一位律师刚刚认领了该案件。",
+    "case_claimed": "案件已认领",
+    "case_claimed_desc": "现在已分配给您。",
+    "could_not_claim": "无法认领",
+    "lawyer_assigned": "律师已分配",
+    "lawyer_unassigned": "律师已取消分配",
+    "assign_failed": "分配失败",
+    "released": "已释放",
+    "status_updated": "状态已更新",
+    "update_failed": "更新失败",
+    "upload_document": "上传新文档",
+    "upload_document_desc": "提交新的法律案件",
+    "view_my_cases": "查看我的案件",
+    "view_my_cases_desc": "追踪状态与更新",
+    "contact_team": "联系法律团队",
+    "contact_team_desc": "直接联系律师",
+    "client": "客户",
+    "search_cases": "搜索案件...",
+    "all_statuses": "全部状态",
+    "all_lawyers": "全部律师",
+    "case": "案件",
+    "lawyer": "律师",
+    "files": "文件",
+    "updated": "更新于",
+    "messages": "消息",
+    "new_comment": "新评论",
+    "assign_to_lawyer": "分配给律师…",
+    "case_assigned": "案件已分配",
+    "no_pending_assignment": "没有等待分配的新案件。",
+    "pending_assignment": "待分配",
+    "unassigned_tasks": "未分配的任务"
+  },
+  "cases": {
+    "title_label": "标题",
+    "category": "类别",
+    "description": "描述",
+    "document_optional": "文档（可选）",
+    "create_case": "创建案件",
+    "creating": "创建中...",
+    "new_case_title": "新建案件",
+    "case_created": "案件已创建",
+    "invalid_input": "输入无效",
+    "error": "错误",
+    "upload_failed": "上传失败",
+    "send": "发送",
+    "send_failed": "发送失败",
+    "attach": "附件",
+    "drop_to_attach": "拖放以附加",
+    "composer_placeholder": "撰写消息、拖放文件，或两者皆可…",
+    "no_activity_long": "暂无活动。发送消息或上传文档以开始。",
+    "cases": "案件",
+    "search_cases": "搜索案件",
+    "no_cases_found": "未找到案件。",
+    "case_details": "案件详情",
+    "status": "状态",
+    "assigned_lawyer": "指派律师",
+    "no_assigned_lawyer": "暂未指派律师",
+    "quick_actions": "快捷操作",
+    "activity_summary": "活动概要",
+    "unassigned_option": "— 未分配 —",
+    "dashboard": "控制台",
+    "loading_case": "案件加载中…",
+    "case_not_found": "未找到案件。",
+    "download": "下载",
+    "download_failed": "下载失败",
+    "reviewed_doc": "已审核",
+    "signed_doc": "已签署",
+    "you": "您",
+    "unknown": "未知",
+    "user": "用户",
+    "uploaded": "上传了 {{count}} 个文件",
+    "case_created_desc": "律师将很快审核您的请求。",
+    "description_placeholder": "请用自己的话描述您的情况。添加任何截止日期或具体问题。",
+    "drop_files": "将文件拖到此处或点击浏览",
+    "drop_files_hint": "PDF、Word、图片 — 每个最大 25MB",
+    "need_details": "添加一些详细信息",
+    "need_details_desc": "请提供简短描述或至少附上一份文件，以便律师为您提供帮助。",
+    "new_case_helper": "请简要告诉我们您需要什么帮助。律师将很快与您联系。",
+    "submit_hint": "添加简短描述或附上文件。两者兼有更佳。",
+    "title_placeholder": "例如：审查劳动合同"
+  },
+  "notifications": {
+    "title": "通知",
+    "empty": "暂无通知",
+    "mark_all_read": "全部标为已读"
+  },
+  "validation": {
+    "required": "必填项",
+    "invalid_email": "邮箱无效",
+    "password_too_short": "密码太短",
+    "upload_failed": "上传失败",
+    "network_error": "网络错误",
+    "something_wrong": "出现问题"
+  },
+  "roles": {
+    "client": "客户",
+    "lawyer": "律师",
+    "admin": "管理员",
+    "super_admin": "超级管理员",
+    "staff": "员工"
+  },
+  "case_status": {
+    "uploaded": "新上传",
+    "under_review": "审核中",
+    "reviewed": "已审核",
+    "completed": "已完成",
+    "open": "待处理",
+    "assigned": "已分配",
+    "in_progress": "进行中",
+    "awaiting_client": "等待客户",
+    "closed": "已关闭"
+  },
+  "category": {
+    "corporate": "公司法",
+    "family": "家庭法",
+    "real_estate": "房地产法",
+    "employment": "劳动法",
+    "ip": "知识产权",
+    "litigation": "民事诉讼"
+  },
+  "file_kind": {
+    "original": "原始文件",
+    "reviewed": "已审核",
+    "signed": "已签署"
+  },
+  "tasks": {
+    "new_task": "新任务",
+    "create_task": "创建任务",
+    "creating": "创建中...",
+    "title": "标题",
+    "description": "描述",
+    "category": "类别",
+    "priority": "优先级",
+    "assign_to_optional": "分配给（可选）",
+    "leave_for_claim": "— 留待认领 —",
+    "due_date_optional": "截止日期（可选）",
+    "related_case_optional": "相关案件（可选）",
+    "none_option": "— 无 —",
+    "unassigned_option": "— 未分配 —",
+    "invalid_input": "输入无效",
+    "create_failed": "创建任务失败",
+    "task_created": "任务已创建",
+    "loading": "加载中…",
+    "not_found": "未找到任务。",
+    "back": "返回",
+    "linked_case": "· 关联案件",
+    "created_by": "由 {{name}} 创建",
+    "due_on": "到期 {{date}}",
+    "delete": "删除",
+    "confirm_delete": "确定删除此任务？此操作无法撤销。",
+    "delete_failed": "删除失败",
+    "task_deleted": "任务已删除",
+    "handled_by": "当前处理人",
+    "unassigned": "未分配",
+    "release_task": "释放任务",
+    "claim_task": "认领任务",
+    "claimed": "已认领",
+    "released": "已释放",
+    "could_not_claim": "无法认领",
+    "already_claimed": "已被认领",
+    "already_claimed_desc": "另一位律师刚刚认领了此任务。",
+    "assign_failed": "分配失败",
+    "reassigned": "已重新分配",
+    "status": "状态",
+    "status_update_failed": "状态更新失败",
+    "viewing_singular": "{{name}} 正在查看",
+    "viewing_plural": "另有 {{count}} 人正在查看",
+    "internal_notes": "内部备注",
+    "no_notes": "暂无备注。",
+    "add_note_placeholder": "添加内部备注…",
+    "comment_failed": "评论失败",
+    "activity": "活动",
+    "no_activity": "暂无活动。",
+    "act_created": "创建了此任务",
+    "act_claimed": "认领了此任务",
+    "act_released": "释放了此任务",
+    "act_assigned_to": "分配给",
+    "act_status_changed": "更改状态:",
+    "act_commented": "添加了内部备注",
+    "someone": "某人",
+    "task_claimed": "已认领任务"
+  },
+  "common": {
+    "loading": "加载中...",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "back": "返回",
+    "close": "关闭",
+    "failed": "失败"
+  },
+  "team_page": {
+    "super_admin": "超级管理员",
+    "admin_required": "需要管理员权限。",
+    "search_ph": "搜索姓名或电子邮件",
+    "all_roles": "所有角色",
+    "empty": "未找到团队成员。",
+    "col_name": "姓名",
+    "col_email": "电子邮件",
+    "col_role": "角色",
+    "col_joined": "加入时间",
+    "col_change": "更改",
+    "role_updated": "角色已更新"
+  },
+  "messages_page": {
+    "title": "消息",
+    "subtitle": "您案件中的最新对话。",
+    "empty": "暂无消息。",
+    "user": "用户",
+    "case": "案件"
+  },
+  "documents_page": {
+    "title": "文件",
+    "subtitle": "附加在您案件上的文件。",
+    "empty": "暂无文件。",
+    "case": "案件",
+    "download": "下载",
+    "download_failed": "下载失败"
+  },
+  "analytics_page": {
+    "no_assigned": "尚无已分配的案件。",
+    "no_activity": "近期暂无活动。"
+  },
+  "nav_dashboard": {
+    "workspace": "工作区",
+    "manage": "管理",
+    "overview": "仪表板",
+    "cases": "案件",
+    "tasks": "任务",
+    "appointments": "预约",
+    "notifications": "通知",
+    "team": "团队",
+    "analytics": "分析",
+    "my_analytics": "我的分析",
+    "settings": "设置"
+  },
+  "client_analytics": {
+    "title": "我的分析",
+    "subtitle": "您的案件与互动概览",
+    "documents": "文件",
+    "appointments": "您的预约",
+    "no_appts": "暂无预约。",
+    "activity_30": "30天活动",
+    "uploaded_file": "已上传文件",
+    "empty": "开始新案件以查看您的分析数据。"
+  },
+  "settings": {
+    "profile": "个人资料",
+    "display_name": "显示名称",
+    "language": "语言"
+  },
+  "appointment": {
+    "section_title": "预约咨询",
+    "section_desc": "告诉我们您的情况，我们的团队成员将尽快与您联系。",
+    "full_name": "姓名",
+    "full_name_ph": "张三",
+    "email": "电子邮箱",
+    "email_ph": "you@example.com",
+    "service": "所需服务",
+    "service_ph": "选择服务",
+    "preferred_date": "期望日期",
+    "preferred_time": "期望时间",
+    "message": "简短留言",
+    "message_ph": "简要描述您的法律事务（可选）…",
+    "submit": "提交预约",
+    "submitting": "提交中…",
+    "success_title": "预约请求已发送",
+    "success_desc": "我们将尽快与您联系。",
+    "book_another": "再次预约",
+    "error_required": "请填写所有必填字段。",
+    "error_email": "请输入有效的电子邮箱地址。",
+    "error_generic": "无法提交您的请求。",
+    "services": {
+      "corporate": "公司法",
+      "civil_litigation": "民事诉讼",
+      "intellectual_property": "知识产权",
+      "real_estate": "房地产法",
+      "family": "家庭法",
+      "employment": "劳动法"
+    }
+  },
+  "appointments": {
+    "title": "预约",
+    "subtitle": "客户咨询请求",
+    "stat_total": "总计",
+    "stat_new": "新建",
+    "stat_scheduled": "已安排",
+    "stat_completed": "已完成",
+    "search_ph": "按姓名、邮箱、留言搜索…",
+    "all_statuses": "全部状态",
+    "all_services": "全部服务",
+    "empty_title": "暂无预约",
+    "empty_desc": "新的咨询请求将显示在此处。",
+    "preferred": "期望",
+    "status_label": "状态",
+    "assign_to": "分配给律师",
+    "assigned_to": "已分配给",
+    "internal_notes": "内部备注",
+    "notes_ph": "添加备注（失焦自动保存）…",
+    "load_error": "无法加载预约",
+    "update_error": "更新失败",
+    "updated": "预约已更新",
+    "assigned": "预约已分配",
+    "status": {
+      "new": "新建",
+      "contacted": "已联系",
+      "scheduled": "已安排",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    }
+  },
+  "ai_assistant": {
+    "hero_title": "LegalPedia 人工智能法律助手",
+    "hero_subtitle": "可使用英语、中文或蒙古语提问,获取专业的法律指导。",
+    "badge_confidential": "保密",
+    "badge_licensed": "由持牌律师支持",
+    "badge_multi": "EN · 中文 · Монгол",
+    "menu": "菜单",
+    "new_chat": "新对话",
+    "history": "对话历史",
+    "no_history": "暂无对话记录。",
+    "suggested_topics": "推荐话题",
+    "clear_chat": "清空当前对话",
+    "empty_title": "我可以为您的法律事务提供哪些帮助?",
+    "empty_desc": "选择一个示例,或在下方输入您的问题。",
+    "placeholder": "请输入您的法律问题…",
+    "send": "发送",
+    "stop": "停止",
+    "regenerate": "重新生成",
+    "copy": "复制回复",
+    "copied": "已复制到剪贴板",
+    "print": "打印",
+    "good": "回复有用",
+    "bad": "回复欠佳",
+    "fb_thanks": "感谢您的反馈!",
+    "fb_noted": "已记录,我们将持续改进。",
+    "disclaimer": "AI 仅提供一般性信息。如需正式法律建议,请咨询律师。",
+    "cta_title": "需要真正的律师?",
+    "cta_desc": "预约与我们团队的保密咨询。",
+    "cta_book": "预约咨询",
+    "related": "相关链接",
+    "related_services": "我们的服务",
+    "related_docs": "法律出版物",
+    "related_portal": "客户门户",
+    "related_signin": "登录客户门户",
+    "related_upload": "上传文件",
+    "faq": "常见问题",
+    "faq_text": "对话内容保密。AI 回复仅为一般信息。如需具有约束力的法律建议,请联系持牌律师。",
+    "thinking": "思考中…",
+    "loading": "加载中…",
+    "starter_company": "如何在蒙古注册公司?",
+    "starter_lease": "审查租赁协议",
+    "starter_employment": "雇佣合同指导",
+    "starter_family": "家庭法律咨询",
+    "topic_corporate": "公司法",
+    "topic_real_estate": "房地产",
+    "topic_family": "家庭法",
+    "topic_litigation": "诉讼",
+    "rename": "重命名",
+    "delete": "删除",
+    "search_history": "搜索对话…",
+    "guest_remaining": "剩余 {{n}} 次免费"
+  },
+  "login_modal": {
+    "title": "继续您的法律咨询",
+    "description": "您已用完免费提问次数。登录或注册账户以保存对话记录并继续获得个性化法律协助。",
+    "sign_in": "登录",
+    "create_account": "创建账户",
+    "cancel": "取消",
+    "benefit_unlimited": "无限 AI 对话",
+    "benefit_history": "保存对话历史",
+    "benefit_upload": "上传法律文件",
+    "benefit_book": "预约咨询",
+    "benefit_portal": "安全客户门户"
+  },
+  "admin": {
+    "common": {
+      "loading": "加载中…",
+      "save": "保存",
+      "save_changes": "保存更改",
+      "create": "创建",
+      "cancel": "取消",
+      "delete": "删除",
+      "edit": "编辑",
+      "actions": "操作",
+      "status": "状态",
+      "order": "顺序",
+      "display_order": "显示顺序",
+      "published": "已发布",
+      "live": "在线",
+      "draft": "草稿",
+      "hidden": "隐藏",
+      "name": "姓名",
+      "email": "电子邮箱",
+      "title": "标题",
+      "date": "日期",
+      "role": "角色",
+      "category": "类别",
+      "description": "描述",
+      "key": "键",
+      "search": "搜索…",
+      "failed_load": "加载失败",
+      "save_failed": "保存失败",
+      "delete_failed": "删除失败",
+      "deleted": "已删除",
+      "updated": "已更新",
+      "created": "已创建",
+      "confirm_delete": "删除此项目？"
+    },
+    "nav": {
+      "overview": "概览",
+      "pages": "页面",
+      "publications": "出版物",
+      "doc_categories": "文档类别",
+      "services": "服务",
+      "testimonials": "客户评价",
+      "blog_news": "博客 / 新闻",
+      "team": "团队",
+      "faqs": "常见问题",
+      "media": "媒体库",
+      "seo": "SEO",
+      "analytics": "分析",
+      "leads": "潜在客户",
+      "document_payments": "文档付款",
+      "users_roles": "用户和角色",
+      "content": "内容",
+      "site": "网站",
+      "website_cms": "网站 CMS",
+      "legal_operations": "法律运营"
+    },
+    "shell": {
+      "view_site": "查看网站",
+      "legal_ops": "法律运营",
+      "administrator": "管理员",
+      "settings": "设置",
+      "sign_out": "退出登录",
+      "admin": "管理",
+      "seo_settings": "SEO 设置",
+      "website_analytics": "网站分析"
+    },
+    "dashboard": {
+      "services": "服务",
+      "publications": "出版物",
+      "blog_posts": "博客文章",
+      "welcome_title": "欢迎使用管理后台",
+      "welcome_desc": "使用侧边栏管理服务、出版物和博客文章。"
+    },
+    "analytics": {
+      "title": "分析仪表板",
+      "loading": "正在加载分析数据...",
+      "total_visitors": "总访客数",
+      "returning_visitors": "回访访客",
+      "registered_users": "注册用户",
+      "chat_messages": "聊天消息",
+      "captured_leads": "已获取的潜在客户",
+      "most_visited": "访问量最高的页面",
+      "no_data": "暂无页面访问数据。",
+      "visits": "次访问"
+    },
+    "leads": {
+      "title": "已获取的潜在客户",
+      "message": "留言",
+      "no_leads": "暂无潜在客户。",
+      "deleted": "潜在客户已删除"
+    },
+    "users": {
+      "title": "用户管理",
+      "super_admin_access": "超级管理员权限",
+      "only_super": "只有超级管理员才能更改用户角色。",
+      "joined": "加入时间",
+      "change_role": "更改角色",
+      "no_users": "未找到用户。",
+      "role_update_failed": "角色更新失败",
+      "role_assign_failed": "角色分配失败",
+      "role_updated": "角色已更新"
+    },
+    "faqs": {
+      "subtitle": "创建并翻译常见问题。",
+      "add": "添加常见问题",
+      "none": "暂无常见问题。",
+      "add_first": "添加第一个",
+      "question": "问题",
+      "edit": "编辑常见问题",
+      "new": "新建常见问题",
+      "qa_required": "问题和答案为必填项",
+      "answer": "答案",
+      "question_locale": "问题 ({{locale}})",
+      "answer_locale": "答案 ({{locale}})",
+      "confirm_delete": "删除此常见问题？"
+    },
+    "pages": {
+      "subtitle": "管理每个公开页面的可编辑内容。",
+      "new": "新建页面",
+      "quick_add": "快速添加标准页面：",
+      "none": "暂无页面记录。",
+      "page_key_required": "页面键为必填项",
+      "invalid_json": "无效的 JSON",
+      "page_key": "页面键",
+      "base_title": "基础标题",
+      "base_content": "基础内容 (JSON)",
+      "title_locale": "标题 ({{locale}})",
+      "content_locale": "内容 ({{locale}}) (JSON)",
+      "edit_title": "编辑页面：{{key}}",
+      "confirm_delete": "删除此页面记录？"
+    },
+    "posts": {
+      "title": "博客 / 新闻",
+      "add": "添加文章",
+      "edit": "编辑文章",
+      "none": "暂无文章。",
+      "content": "内容",
+      "published_status": "已发布",
+      "confirm_delete": "删除此文章？"
+    },
+    "services": {
+      "title": "服务",
+      "add": "添加服务",
+      "edit": "编辑服务",
+      "none": "暂无服务。",
+      "image_url": "图片网址",
+      "key_hint": "键 (corporate, litigation…)",
+      "published_visible": "已发布（显示在网站上）",
+      "confirm_delete": "删除此服务？",
+      "full_desc": "完整描述",
+      "benefits": "优势 / 子服务（每行一个）",
+      "benefits_hint": "每行一个优势"
+    },
+    "testimonials": {
+      "subtitle": "显示在首页的客户评价。",
+      "add": "新建评价",
+      "none": "暂无评价。",
+      "rating": "评分",
+      "edit": "编辑评价",
+      "new": "新建评价",
+      "name_required": "姓名为必填项",
+      "quote_required": "评价内容为必填项",
+      "rating_field": "评分 (1-5)",
+      "avatar_url": "头像网址",
+      "optional": "可选",
+      "role_locale": "角色 / 职位 ({{locale}})",
+      "quote_locale": "评价 ({{locale}})",
+      "confirm_delete": "删除此评价？"
+    },
+    "team": {
+      "subtitle": "管理“关于我们”页面显示的律师简介。",
+      "add": "添加成员",
+      "none": "暂无团队成员。",
+      "add_first": "添加第一个",
+      "member": "成员",
+      "specialty": "专长",
+      "featured": "精选",
+      "edit": "编辑成员",
+      "new": "新建团队成员",
+      "name_required": "姓名为必填项",
+      "photo_url": "照片网址",
+      "linkedin_url": "领英网址",
+      "role_locale": "角色 ({{locale}})",
+      "specialty_locale": "专长 ({{locale}})",
+      "bio_locale": "简介 ({{locale}})",
+      "confirm_delete": "删除此团队成员？"
+    },
+    "seo": {
+      "subtitle": "按语言设置页面标题、描述和关键词。",
+      "new": "新建条目",
+      "add_standard": "添加标准条目：",
+      "none": "暂无 SEO 条目。",
+      "page": "页面",
+      "page_key_required": "页面键为必填项",
+      "canonical_url": "规范网址",
+      "og_image": "OG 图片网址",
+      "default_title": "默认标题",
+      "default_description": "默认描述",
+      "default_keywords": "默认关键词",
+      "comma_separated": "逗号分隔",
+      "title_locale": "标题 ({{locale}})",
+      "description_locale": "描述 ({{locale}})",
+      "keywords_locale": "关键词 ({{locale}})",
+      "edit_title": "编辑 SEO：{{key}}",
+      "new_title": "新建 SEO 条目",
+      "confirm_delete": "删除 SEO 记录？"
+    },
+    "categories": {
+      "title": "法律文档类别",
+      "subtitle": "按业务领域组织市场。",
+      "add": "添加类别",
+      "edit": "编辑类别",
+      "icon": "图标 (lucide 名称)",
+      "name_default": "名称（默认）",
+      "name_locale": "名称 ({{locale}})",
+      "confirm_delete": "删除？"
+    },
+    "publications": {
+      "title": "出版物",
+      "subtitle": "在一处管理所有新闻、研究和法律文档。",
+      "categories": "类别",
+      "new": "新建出版物",
+      "search_title": "搜索标题…",
+      "type": "类型",
+      "all_types": "所有类型",
+      "news_research": "新闻与研究",
+      "legal_documents": "法律文档",
+      "all_statuses": "所有状态",
+      "unpublished": "未发布",
+      "col_price": "价格",
+      "col_downloads": "下载次数",
+      "col_updated": "更新时间",
+      "type_news": "新闻",
+      "type_legal": "法律文档",
+      "untitled": "无标题",
+      "free": "免费",
+      "publish": "发布",
+      "unpublish": "取消发布",
+      "preview": "预览",
+      "none": "没有符合这些筛选条件的出版物。",
+      "published_live": "已上线发布",
+      "moved_unpublished": "已移至未发布",
+      "deleted": "已删除",
+      "confirm_delete": "删除\"{{title}}\"？此操作无法撤销。",
+      "showing": "显示 {{total}} 中的 {{from}}–{{to}}",
+      "prev": "上一页",
+      "next": "下一页"
+    },
+    "editor": {
+      "back": "返回",
+      "new_publication": "新建出版物",
+      "editing": "编辑中 · {{status}}",
+      "untitled": "无标题",
+      "preview": "预览",
+      "save_draft": "保存草稿",
+      "unpublish": "取消发布",
+      "publish": "发布",
+      "title_required": "标题为必填项",
+      "not_found": "未找到",
+      "draft_saved": "草稿已保存",
+      "published": "已发布",
+      "unpublished": "未发布",
+      "saved": "已保存",
+      "save_failed": "保存失败",
+      "file_uploaded": "文件已上传",
+      "upload_failed": "上传失败",
+      "basic_info": "基本信息",
+      "basic_info_desc": "在整个网站中显示的核心详情。",
+      "field_title": "标题",
+      "title_ph": "例如：劳动合同模板",
+      "slug": "Slug",
+      "slug_hint": "用于公开网址。根据标题自动生成。",
+      "short_summary": "简短摘要",
+      "short_summary_hint": "显示在卡片和预览中。",
+      "description": "描述",
+      "description_hint": "用于 SEO 的纯文本描述。",
+      "multilingual": "多语言内容",
+      "multilingual_desc": "每种语言的本地化标题、摘要和正文。",
+      "title_locale": "标题 ({{locale}})",
+      "summary_locale": "摘要 ({{locale}})",
+      "body_locale": "正文 ({{locale}})",
+      "body_ph": "撰写 {{locale}} 文章正文…",
+      "seo": "SEO 与发现",
+      "seo_desc": "在搜索和社交媒体中的显示方式。",
+      "meta_title": "Meta 标题",
+      "meta_title_ph": "默认为标题",
+      "meta_description": "Meta 描述",
+      "meta_description_ph": "默认为摘要",
+      "keywords": "关键词",
+      "keywords_hint": "按 Enter 添加。用于站内搜索和 SEO。",
+      "keywords_ph": "添加关键词并按 Enter",
+      "featured": "精选",
+      "trending": "热门",
+      "type": "出版物类型",
+      "type_news": "新闻与研究",
+      "type_legal": "法律文档",
+      "category": "类别",
+      "select_category": "选择类别",
+      "thumbnail": "缩略图",
+      "click_upload": "点击上传",
+      "document_file": "文档文件",
+      "replace": "替换",
+      "upload_doc": "上传 PDF / DOC / DOCX",
+      "pricing": "价格与访问",
+      "free_download": "免费下载",
+      "price_cents": "价格（分）",
+      "currency": "货币",
+      "languages": "可用语言"
+    },
+    "payments": {
+      "title": "文档付款",
+      "subtitle": "审核提交的付款确认码并授权下载。",
+      "document": "文档",
+      "customer": "客户",
+      "confirmation_code": "确认码",
+      "amount": "金额",
+      "action": "操作",
+      "none": "暂无付款请求。",
+      "authorize": "授权",
+      "decline": "拒绝",
+      "update_failed": "更新失败",
+      "authorized": "已授权下载",
+      "declined": "请求已拒绝"
+    },
+    "media": {
+      "subtitle": "在整个网站上传和重复使用图片和文档。",
+      "upload": "上传",
+      "uploading": "上传中…",
+      "none": "暂无媒体。上传您的第一张图片或文档。",
+      "uploaded": "已上传",
+      "upload_failed": "上传失败",
+      "storage_delete_failed": "存储删除失败",
+      "record_delete_failed": "记录删除失败",
+      "url_copied": "网址已复制",
+      "confirm_delete": "删除 {{name}}？"
+    }
+  }
 }

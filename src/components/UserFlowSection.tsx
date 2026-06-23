@@ -88,7 +88,7 @@ const UserFlowSection = () => {
                 return (
                   <div
                     key={i}
-                    ref={(el) => { stepRefs.current[i] = el; }}
+                    ref={(el) => (stepRefs.current[i] = el)}
                     data-index={i}
                     onClick={() => toggleStep(i)}
                     className={`flex flex-col items-center cursor-pointer transition-all duration-500 ${
