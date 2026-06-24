@@ -16,31 +16,16 @@ export default defineConfig({
 
     rollupOptions: {
       output: {
-        manualChunks: {
-          react: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          supabase: ['@supabase/supabase-js'],
-          charts: ['recharts'],
-          icons: ['lucide-react'],
-          admin: [
-            "./src/pages/admin/AdminDashboardPage",
-            "./src/pages/admin/AdminLoginPage",
-            "./src/pages/admin/AdminServicesPage",
-            "./src/pages/admin/AdminTestimonialsPage",
-            "./src/pages/admin/AdminPublicationsPage",
-            "./src/pages/admin/AdminPublicationEditor",
-            "./src/pages/admin/AdminPostsPage",
-            "./src/pages/admin/AdminLeadsPage",
-            "./src/pages/admin/AdminAnalyticsPage",
-            "./src/pages/admin/AdminUsersPage",
-            "./src/pages/admin/AdminPagesPage",
-            "./src/pages/admin/AdminTeamPage",
-            "./src/pages/admin/AdminFaqsPage",
-            "./src/pages/admin/AdminMediaPage",
-            "./src/pages/admin/AdminSeoPage",
-            "./src/pages/admin/AdminLegalCategoriesPage",
-            "./src/pages/admin/AdminDocumentPaymentsPage"
-          ]
+        manualChunks(id: string) {
+          if (id.includes("node_modules")) {
+            if (id.includes("react") || id.includes("react-dom")) return "react";
+            if (id.includes("react-router-dom")) return "router";
+            if (id.includes("@supabase")) return "supabase";
+            if (id.includes("recharts")) return "charts";
+            if (id.includes("lucide-react")) return "icons";
+
+            return "vendor";
+          }
         },
       },
     },
