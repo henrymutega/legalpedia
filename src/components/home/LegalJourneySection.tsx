@@ -95,7 +95,7 @@ const LegalJourneySection = () => {
                   <img
                     src={step.image}
                     alt={t(step.titleKey, step.titleFallback)}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1.4s] ease-out"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[1400ms] ease-out"
                     loading="lazy"
                   />
                   <div className={`absolute inset-0 bg-gradient-to-t ${step.tone} opacity-50 mix-blend-overlay`} />

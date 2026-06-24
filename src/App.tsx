@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -5,52 +6,55 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AuthProvider } from "@/contexts/AuthContext";
 import ScrollToTop from "./components/ScrollToTop";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ServicesPage from "./pages/ServicesPage";
-import ServiceDetailPage from "./pages/ServiceDetailPage";
-import NewsResearchPage from "./pages/NewsResearchPage";
-import LegalDocumentsPage from "./pages/LegalDocumentspage";
-import LegalDocumentDetailPage from "./pages/LegalDocumentDetailPage";
-
-import AdminLegalCategoriesPage from "./pages/admin/AdminLegalCategoriesPage";
-import AdminDocumentPaymentsPage from "./pages/admin/AdminDocumentPaymentsPage";
-import ContactPage from "./pages/ContactPage";
-import LoginPage from "./pages/LoginPage";
-import AIAssistantPage from "./pages/AIAssistantPage";
-import NotFound from "./pages/NotFound";
-import DashboardPage from "./pages/dashboard/DashboardPage";
-import NewCasePage from "./pages/dashboard/NewCasePage";
-import CaseDetailPage from "./pages/dashboard/CaseDetailPage";
-import NewTaskPage from "./pages/dashboard/NewTaskPage";
-import TaskDetailPage from "./pages/dashboard/TaskDetailPage";
-import CasesPage from "./pages/dashboard/CasesPage";
-import TasksPage from "./pages/dashboard/TasksPage";
-import NotificationsPage from "./pages/dashboard/NotificationsPage";
-import SettingsPage from "./pages/dashboard/SettingsPage";
-import TeamPage from "./pages/dashboard/TeamPage";
-import AnalyticsPage from "./pages/dashboard/AnalyticsPage";
-import ClientAnalyticsPage from "./pages/dashboard/ClientAnalyticsPage";
-import AppointmentsPage from "./pages/dashboard/AppointmentsPage";
-import DocumentsPage from "./pages/dashboard/DocumentsPage";
-import MessagesPage from "./pages/dashboard/MessagesPage";
-import AdminLoginPage from "./pages/admin/AdminLoginPage";
-import AdminDashboardPage from "./pages/admin/AdminDashboardPage";
-import AdminServicesPage from "./pages/admin/AdminServicesPage";
-import AdminTestimonialsPage from "./pages/admin/AdminTestimonialsPage";
-import AdminPublicationsPage from "./pages/admin/AdminPublicationsPage";
-import AdminPublicationEditor from "./pages/admin/AdminPublicationEditor";
-import NewsArticlePage from "./pages/NewsArticlePage";
-import AdminPostsPage from "./pages/admin/AdminPostsPage";
-import AdminLeadsPage from "./pages/admin/AdminLeadsPage";
-import AdminAnalyticsPage from "./pages/admin/AdminAnalyticsPage";
-import AdminUsersPage from "./pages/admin/AdminUsersPage";
-import AdminPagesPage from "./pages/admin/AdminPagesPage";
-import AdminTeamPage from "./pages/admin/AdminTeamPage";
-import AdminFaqsPage from "./pages/admin/AdminFaqsPage";
-import AdminMediaPage from "./pages/admin/AdminMediaPage";
-import AdminSeoPage from "./pages/admin/AdminSeoPage";
 import ProtectedRoute from "./components/ProtectedRoute";
+const HomePage = lazy(() => import("./pages/HomePage"));
+const AboutPage = lazy(() => import("./pages/AboutPage"));
+const ServicesPage = lazy(() => import("./pages/ServicesPage"));
+const ServiceDetailPage = lazy(() => import("./pages/ServiceDetailPage"));
+const NewsResearchPage = lazy(() => import("./pages/NewsResearchPage"));
+const LegalDocumentsPage = lazy(() => import("./pages/LegalDocumentspage"));
+const LegalDocumentDetailPage = lazy(() => import("./pages/LegalDocumentDetailPage"));
+const ContactPage = lazy(() => import("./pages/ContactPage"));
+const LoginPage = lazy(() => import("./pages/LoginPage"));
+const AIAssistantPage = lazy(() => import("./pages/AIAssistantPage"));
+const NewsArticlePage = lazy(() => import("./pages/NewsArticlePage"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+
+// Dashboard
+const DashboardPage = lazy(() => import("./pages/dashboard/DashboardPage"));
+const NewCasePage = lazy(() => import("./pages/dashboard/NewCasePage"));
+const CaseDetailPage = lazy(() => import("./pages/dashboard/CaseDetailPage"));
+const NewTaskPage = lazy(() => import("./pages/dashboard/NewTaskPage"));
+const TaskDetailPage = lazy(() => import("./pages/dashboard/TaskDetailPage"));
+const CasesPage = lazy(() => import("./pages/dashboard/CasesPage"));
+const TasksPage = lazy(() => import("./pages/dashboard/TasksPage"));
+const NotificationsPage = lazy(() => import("./pages/dashboard/NotificationsPage"));
+const SettingsPage = lazy(() => import("./pages/dashboard/SettingsPage"));
+const TeamPage = lazy(() => import("./pages/dashboard/TeamPage"));
+const AnalyticsPage = lazy(() => import("./pages/dashboard/AnalyticsPage"));
+const ClientAnalyticsPage = lazy(() => import("./pages/dashboard/ClientAnalyticsPage"));
+const AppointmentsPage = lazy(() => import("./pages/dashboard/AppointmentsPage"));
+const DocumentsPage = lazy(() => import("./pages/dashboard/DocumentsPage"));
+const MessagesPage = lazy(() => import("./pages/dashboard/MessagesPage"));
+
+// Admin
+const AdminLoginPage = lazy(() => import("./pages/admin/AdminLoginPage"));
+const AdminDashboardPage = lazy(() => import("./pages/admin/AdminDashboardPage"));
+const AdminServicesPage = lazy(() => import("./pages/admin/AdminServicesPage"));
+const AdminTestimonialsPage = lazy(() => import("./pages/admin/AdminTestimonialsPage"));
+const AdminPublicationsPage = lazy(() => import("./pages/admin/AdminPublicationsPage"));
+const AdminPublicationEditor = lazy(() => import("./pages/admin/AdminPublicationEditor"));
+const AdminPostsPage = lazy(() => import("./pages/admin/AdminPostsPage"));
+const AdminLeadsPage = lazy(() => import("./pages/admin/AdminLeadsPage"));
+const AdminAnalyticsPage = lazy(() => import("./pages/admin/AdminAnalyticsPage"));
+const AdminUsersPage = lazy(() => import("./pages/admin/AdminUsersPage"));
+const AdminPagesPage = lazy(() => import("./pages/admin/AdminPagesPage"));
+const AdminTeamPage = lazy(() => import("./pages/admin/AdminTeamPage"));
+const AdminFaqsPage = lazy(() => import("./pages/admin/AdminFaqsPage"));
+const AdminMediaPage = lazy(() => import("./pages/admin/AdminMediaPage"));
+const AdminSeoPage = lazy(() => import("./pages/admin/AdminSeoPage"));
+const AdminLegalCategoriesPage = lazy(() => import("./pages/admin/AdminLegalCategoriesPage"));
+const AdminDocumentPaymentsPage = lazy(() => import("./pages/admin/AdminDocumentPaymentsPage"));
 
 
 const queryClient = new QueryClient();
@@ -63,6 +67,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <ScrollToTop />
+          <Suspense fallback={<div className="flex items-center justify-center min-h-screen h-screen">Loading...</div>}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -114,6 +119,7 @@ const App = () => (
 
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </BrowserRouter>
       </TooltipProvider>
     </AuthProvider>
