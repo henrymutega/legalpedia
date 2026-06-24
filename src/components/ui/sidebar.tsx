@@ -107,7 +107,7 @@ const SidebarProvider = React.forwardRef<
 
   return (
     <SidebarContext.Provider value={contextValue}>
-      <TooltipProvider delayDuration={0}>
+      <TooltipProvider>
         <div
           style={
             {
@@ -455,6 +455,10 @@ const SidebarMenuButton = React.forwardRef<
     />
   );
 
+  const TooltipTriggerWithAsChild = TooltipTrigger as React.ComponentType<
+    React.ComponentProps<typeof TooltipTrigger> & { asChild?: boolean }
+  >;
+
   if (!tooltip) {
     return button;
   }
@@ -467,7 +471,7 @@ const SidebarMenuButton = React.forwardRef<
 
   return (
     <Tooltip>
-      <TooltipTrigger asChild>{button}</TooltipTrigger>
+      <TooltipTriggerWithAsChild asChild>{button}</TooltipTriggerWithAsChild>
       <TooltipContent side="right" align="center" hidden={state !== "collapsed" || isMobile} {...tooltip} />
     </Tooltip>
   );

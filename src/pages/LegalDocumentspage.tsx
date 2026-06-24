@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link, useNavigate } from 'react-router-dom';
-import { Search, Filter, FileText, Download, Eye, Star, TrendingUp, Globe, FileType2 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Search, Filter, FileText, Star, TrendingUp, Globe, FileType2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
 import PageHeader from '@/components/PageHeader';

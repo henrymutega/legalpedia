@@ -229,8 +229,8 @@ const LawyerDashboard = () => {
             </h2>
             <div className="bg-card border border-border rounded-lg divide-y divide-border max-h-[600px] overflow-auto">
               {[
-                ...recentUploads.map(f => ({ kind: 'file' as const, created_at: f.created_at, ...f })),
-                ...comments.slice(0, 10).map(c => ({ kind: 'comment' as const, created_at: c.created_at, ...c })),
+                ...recentUploads.map(f => ({ ...f, kind: 'file' as const })),
+                ...comments.slice(0, 10).map(c => ({ ...c, kind: 'comment' as const })),
               ]
                 .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
                 .slice(0, 12)

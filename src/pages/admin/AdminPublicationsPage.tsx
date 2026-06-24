@@ -4,7 +4,7 @@ import { supabase } from '@/integrations/supabase/client';
 import { useQueryClient } from '@tanstack/react-query';
 import AdminLayout from '@/components/AdminLayout';
 import {
-  Plus, Pencil, Trash2, Eye, ExternalLink, Search, Loader2, FileText, Newspaper,
+  Plus, Pencil, Trash2, ExternalLink, Search, Loader2, FileText, Newspaper,
   CheckCircle2, Circle, Star,
 } from 'lucide-react';
 import { Input } from '@/components/ui/input';

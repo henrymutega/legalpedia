@@ -71,6 +71,7 @@ export function useLegalDocument(id?: string) {
     queryKey: ['legal_document', id],
     enabled: !!id,
     queryFn: async () => {
+      if (!id) return null;
       const { data, error } = await supabase.from('legal_documents').select('*').eq('id', id).maybeSingle();
       if (error) throw error;
       return data;

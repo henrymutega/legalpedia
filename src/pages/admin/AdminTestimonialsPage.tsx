@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { supabase } from '@/integrations/supabase/client';
 import AdminShell from '@/components/admin/AdminShell';
 import LocaleTabs, { Locale } from '@/components/admin/LocaleTabs';

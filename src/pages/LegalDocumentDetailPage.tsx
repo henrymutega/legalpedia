@@ -32,7 +32,7 @@ const LegalDocumentDetailPage = () => {
 
   const { data: doc, isLoading } = useLegalDocument(id);
   const { data: categories = [] } = useLegalCategories();
-  const { data: purchases = [], refetch: refetchPurchases } = useMyPurchases();
+  const { data: purchases = [] } = useMyPurchases();
 
   const [busy, setBusy] = useState<'submit' | 'download' | null>(null);
   const [code, setCode] = useState('');

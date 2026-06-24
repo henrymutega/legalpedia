@@ -2,17 +2,20 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 // Replace with your actual Facebook Pixel ID
-const FB_PIXEL_ID = 'YOUR_PIXEL_ID_HERE';
+const FB_PIXEL_ID = import.meta.env.VITE_FACEBOOK_PIXEL_ID;
 
 declare global {
   interface Window {
-    fbq: (...args: any[]) => void;
-    _fbq: (...args: any[]) => void;
+    fbq?: (...args: any[]) => void;
+    _fbq?: (...args: any[]) => void;
   }
 }
 
+const getFbq = () => window.fbq as ((...args: any[]) => void) | undefined;
+const invokeFbq = (...args: any[]) => getFbq()?.(...args);
+
 const initPixel = () => {
-  if (window.fbq) return;
+  if (window.fbq !== undefined) return;
 
   const f = window;
   const n = (f.fbq = function (...args: any[]) {
@@ -31,8 +34,8 @@ const initPixel = () => {
   const firstScript = document.getElementsByTagName('script')[0];
   firstScript.parentNode?.insertBefore(script, firstScript);
 
-  window.fbq('init', FB_PIXEL_ID);
-  window.fbq('track', 'PageView');
+  invokeFbq('init', FB_PIXEL_ID);
+  invokeFbq('track', 'PageView');
 };
 
 export const useFacebookPixel = () => {
@@ -45,15 +48,12 @@ export const useFacebookPixel = () => {
 
   useEffect(() => {
     if (FB_PIXEL_ID === 'YOUR_PIXEL_ID_HERE') return;
-    if (window.fbq) {
-      window.fbq('track', 'PageView');
-    }
+      window.fbq?.('track', 'PageView');
+    
   }, [location.pathname]);
 };
 
 // Helper to track custom events
 export const trackEvent = (event: string, data?: Record<string, any>) => {
-  if (window.fbq) {
-    window.fbq('track', event, data);
-  }
+    window.fbq?.('track', event, data);
 };
