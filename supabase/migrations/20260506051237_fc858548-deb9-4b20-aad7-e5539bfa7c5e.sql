@@ -57,8 +57,3 @@ DROP POLICY IF EXISTS "Staff can view all roles" ON public.user_roles;
 CREATE POLICY "Staff can view all roles" ON public.user_roles FOR SELECT
 TO authenticated
 USING (public.is_staff(auth.uid()));
-
--- -- Assign super_admin role
--- INSERT INTO public.user_roles (user_id, role)
--- VALUES ('73b5ca7d-3533-4d6f-a954-f46bdb447490','super_admin')
--- ON CONFLICT (user_id, role) DO NOTHING;
