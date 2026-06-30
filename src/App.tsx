@@ -16,6 +16,7 @@ const LegalDocumentsPage = lazy(() => import("./pages/LegalDocumentspage"));
 const LegalDocumentDetailPage = lazy(() => import("./pages/LegalDocumentDetailPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const LoginPage = lazy(() => import("./pages/LoginPage"));
+const ResetPasswordPage = lazy(() => import("./pages/ResetPasswordPage"));
 const AIAssistantPage = lazy(() => import("./pages/AIAssistantPage"));
 const NewsArticlePage = lazy(() => import("./pages/NewsArticlePage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -81,6 +82,7 @@ const App = () => (
             <Route path="/legal-documents/:id" element={<LegalDocumentDetailPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/reset-password" element={<ResetPasswordPage />} />
             <Route path="/ai-assistant" element={<AIAssistantPage />} />
             <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
             <Route path="/dashboard/new" element={<ProtectedRoute><NewCasePage /></ProtectedRoute>} />

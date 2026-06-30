@@ -1,0 +1,16 @@
+ALTER TABLE public.services
+  ADD COLUMN IF NOT EXISTS detail_intro_en text,
+  ADD COLUMN IF NOT EXISTS detail_intro_zh text,
+  ADD COLUMN IF NOT EXISTS detail_intro_mn text,
+  ADD COLUMN IF NOT EXISTS detail_overview_en text,
+  ADD COLUMN IF NOT EXISTS detail_overview_zh text,
+  ADD COLUMN IF NOT EXISTS detail_overview_mn text,
+  ADD COLUMN IF NOT EXISTS detail_why_en text,
+  ADD COLUMN IF NOT EXISTS detail_why_zh text,
+  ADD COLUMN IF NOT EXISTS detail_why_mn text,
+  ADD COLUMN IF NOT EXISTS detail_included_en text[] NOT NULL DEFAULT '{}',
+  ADD COLUMN IF NOT EXISTS detail_included_zh text[] NOT NULL DEFAULT '{}',
+  ADD COLUMN IF NOT EXISTS detail_included_mn text[] NOT NULL DEFAULT '{}',
+  ADD COLUMN IF NOT EXISTS detail_process_en jsonb NOT NULL DEFAULT '[]'::jsonb,
+  ADD COLUMN IF NOT EXISTS detail_process_zh jsonb NOT NULL DEFAULT '[]'::jsonb,
+  ADD COLUMN IF NOT EXISTS detail_process_mn jsonb NOT NULL DEFAULT '[]'::jsonb;
