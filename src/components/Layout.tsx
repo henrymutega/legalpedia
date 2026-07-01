@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Chatbot from './Chatbot';
 import ScrollToTopButton from './ScrollToTopButton';
-import ProfileCompletionModal from '@/components/profile/profileCompletionModal';
+import ProfileCompletionModal from '@/components/profile/ProfileCompletionModal';
 import { useVisitorTracking } from '@/hooks/useVisitorTracking';
 import { useFacebookPixel } from '@/hooks/useFacebookPixel';
 
