@@ -58,7 +58,13 @@ const AdminLegalCategoriesPage = lazy(() => import("./pages/admin/AdminLegalCate
 const AdminDocumentPaymentsPage = lazy(() => import("./pages/admin/AdminDocumentPaymentsPage"));
 
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 const App = () => (
   <QueryClientProvider client={queryClient}>

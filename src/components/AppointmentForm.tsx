@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Send, Loader2, CheckCircle2 } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from '@/hooks/use-toast';
+import { useAuth } from '@/contexts/AuthContext';
 
 export const SERVICE_KEYS = [
   'corporate',
@@ -21,6 +22,7 @@ interface Props {
 
 const AppointmentForm = ({ variant = 'card', onSuccess }: Props) => {
   const { t, i18n } = useTranslation();
+  const { user, profile } = useAuth();
   const [form, setForm] = useState({
     full_name: '',
     email: '',
@@ -32,7 +34,21 @@ const AppointmentForm = ({ variant = 'card', onSuccess }: Props) => {
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const reset = () => setForm({ full_name: '', email: '', service: '', preferred_date: '', preferred_time: '', message: '' });
+  // Auto-populate basic details from the logged-in user's profile.
+  useEffect(() => {
+    if (!user) return;
+    setForm((prev) => ({
+      ...prev,
+      full_name: prev.full_name || profile?.full_name || profile?.display_name || '',
+      email: prev.email || profile?.email || user.email || '',
+    }));
+  }, [user, profile]);
+
+  const reset = () => setForm({
+    full_name: profile?.full_name || profile?.display_name || '',
+    email: profile?.email || user?.email || '',
+    service: '', preferred_date: '', preferred_time: '', message: '',
+  });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

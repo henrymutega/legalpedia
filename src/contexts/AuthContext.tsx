@@ -6,6 +6,12 @@ interface Profile {
   display_name: string | null;
   email: string | null;
   avatar_url: string | null;
+  full_name: string | null;
+  phone: string | null;
+  gender: string | null;
+  date_of_birth: string | null;
+  address: string | null;
+  profile_completed: boolean | null;
 }
 
 interface AuthContextType {
@@ -14,6 +20,7 @@ interface AuthContextType {
   profile: Profile | null;
   loading: boolean;
   signOut: () => Promise<void>;
+  refreshProfile: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType>({
@@ -22,6 +29,7 @@ const AuthContext = createContext<AuthContextType>({
   profile: null,
   loading: true,
   signOut: async () => {},
+  refreshProfile: async () => {},
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -36,18 +44,38 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     try {
       const { data } = await supabase
         .from('profiles')
-        .select('display_name, email, avatar_url')
+        .select('display_name, email, avatar_url, full_name, phone, gender, date_of_birth, address, profile_completed')
         .eq('user_id', userId)
         .maybeSingle();
-      setProfile(data ?? null);
+      setProfile((data as Profile | null) ?? null);
     } catch {
       setProfile(null);
     }
   };
 
+  const refreshProfile = async () => {
+    if (user) await fetchProfile(user.id);
+  };
+
   useEffect(() => {
+    let currentUserId: string | null = null;
+
     // 1) Subscribe FIRST so we never miss an event.
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, newSession) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, newSession) => {
+      // Token refresh / focus-driven events fire when a tab regains focus.
+      // Only sync the session token; don't remount the app or refetch.
+      const newUserId = newSession?.user?.id ?? null;
+      if (event === 'TOKEN_REFRESHED' || event === 'USER_UPDATED') {
+        setSession(newSession);
+        return;
+      }
+      if (newUserId === currentUserId) {
+        // Same user (e.g. SIGNED_IN re-fired on focus) — just sync session token.
+        setSession(newSession);
+        return;
+      }
+
+      currentUserId = newUserId;
       setSession(newSession);
       setUser(newSession?.user ?? null);
       if (newSession?.user) {
@@ -60,6 +88,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
     // 2) Then restore existing session from storage.
     supabase.auth.getSession().then(({ data: { session: existing } }) => {
+      currentUserId = existing?.user?.id ?? null;
       setSession(existing);
       setUser(existing?.user ?? null);
       if (existing?.user) fetchProfile(existing.user.id);
@@ -84,7 +113,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, profile, loading, signOut }}>
+    <AuthContext.Provider value={{ user, session, profile, loading, signOut, refreshProfile }}>
       {children}
     </AuthContext.Provider>
   );

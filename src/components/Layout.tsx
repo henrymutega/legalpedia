@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Chatbot from './Chatbot';
 import ScrollToTopButton from './ScrollToTopButton';
+import ProfileCompletionModal from '@/components/profile/profileCompletionModal';
 import { useVisitorTracking } from '@/hooks/useVisitorTracking';
 import { useFacebookPixel } from '@/hooks/useFacebookPixel';
 
@@ -21,6 +22,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Footer />
       <Chatbot />
       <ScrollToTopButton />
+      <ProfileCompletionModal />
     </div>
   );
 };

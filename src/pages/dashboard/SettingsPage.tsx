@@ -7,22 +7,44 @@ import DashboardLayout from '@/components/dashboard/DashboardLayout';
 import { useToast } from '@/hooks/use-toast';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import ProfileFields, { ProfileFormState } from '@/components/profile/ProfileFields';
 
 const SettingsPage = () => {
   const { t } = useTranslation();
-  const { user, profile } = useAuth();
+  const { user, profile, refreshProfile } = useAuth();
   const { role } = useUserRole();
   const { toast } = useToast();
-  const [name, setName] = useState(profile?.display_name || '');
+  const [form, setForm] = useState<ProfileFormState>({
+    full_name: profile?.full_name || profile?.display_name || '',
+    phone: profile?.phone || '',
+    gender: profile?.gender || '',
+    date_of_birth: profile?.date_of_birth || '',
+    address: profile?.address || '',
+  });
   const [saving, setSaving] = useState(false);
 
   const save = async () => {
     if (!user) return;
+    if (!form.full_name.trim()) {
+      toast({ title: String(t('profile.error', 'Could not update your profile.')), variant: 'destructive' });
+      return;
+    }
     setSaving(true);
-    const { error } = await supabase.from('profiles').update({ display_name: name }).eq('user_id', user.id);
+    const { error } = await supabase.from('profiles').update({
+      full_name: form.full_name.trim().slice(0, 120),
+      display_name: form.full_name.trim().slice(0, 120),
+      phone: form.phone.trim().slice(0, 40) || null,
+      gender: form.gender || null,
+      date_of_birth: form.date_of_birth || null,
+      address: form.address.trim().slice(0, 200) || null,
+      profile_completed: true,
+    } as any).eq('user_id', user.id);
     setSaving(false);
     if (error) toast({ title: String(t('validation.something_wrong')), description: error.message, variant: 'destructive' });
-    else toast({ title: String(t('common.save', 'Saved')) });
+    else {
+      toast({ title: String(t('profile.saved', 'Profile updated')) });
+      await refreshProfile();
+    }
   };
 
   return (
@@ -33,17 +55,16 @@ const SettingsPage = () => {
           <div className="flex items-center gap-4 mb-4">
             <Avatar className="w-14 h-14 border border-gold/30">
               {profile?.avatar_url && <AvatarImage src={profile.avatar_url} />}
-              <AvatarFallback className="bg-gold/20 text-gold">{(name || profile?.email || 'U')[0].toUpperCase()}</AvatarFallback>
+              <AvatarFallback className="bg-gold/20 text-gold">{(form.full_name || profile?.email || 'U')[0].toUpperCase()}</AvatarFallback>
             </Avatar>
             <div className="min-w-0">
               <p className="text-sm text-muted-foreground truncate">{profile?.email}</p>
               <p className="text-xs text-muted-foreground capitalize">{String(t(`roles.${role}`, role))}</p>
             </div>
           </div>
-          <label className="block text-sm font-medium text-foreground mb-1">{String(t('settings.display_name', 'Display name'))}</label>
-          <input value={name} onChange={e => setName(e.target.value)} className="w-full px-3 py-2 bg-background border border-border rounded-md text-sm mb-3" />
-          <button onClick={save} disabled={saving} className="px-4 py-2 bg-gold text-accent-foreground font-semibold rounded-md hover:bg-gold-dark disabled:opacity-50 text-sm">
-            {saving ? String(t('cases.creating', 'Saving...')) : String(t('common.save', 'Save'))}
+          <ProfileFields form={form} setForm={setForm} />
+          <button onClick={save} disabled={saving} className="mt-4 px-4 py-2 bg-gold text-accent-foreground font-semibold rounded-md hover:bg-gold-dark disabled:opacity-50 text-sm">
+            {saving ? String(t('profile.saving', 'Saving...')) : String(t('common.save', 'Save'))}
           </button>
         </section>
 
