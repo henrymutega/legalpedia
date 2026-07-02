@@ -35,6 +35,7 @@ const TeamPage = lazy(() => import("./pages/dashboard/TeamPage"));
 const AnalyticsPage = lazy(() => import("./pages/dashboard/AnalyticsPage"));
 const ClientAnalyticsPage = lazy(() => import("./pages/dashboard/ClientAnalyticsPage"));
 const AppointmentsPage = lazy(() => import("./pages/dashboard/AppointmentsPage"));
+const MyAppointmentsPage = lazy(() => import("./pages/dashboard/MyAppointmentsPage"));
 const DocumentsPage = lazy(() => import("./pages/dashboard/DocumentsPage"));
 const MessagesPage = lazy(() => import("./pages/dashboard/MessagesPage"));
 
@@ -103,6 +104,7 @@ const App = () => (
             <Route path="/dashboard/analytics" element={<ProtectedRoute allow={['admin','super_admin']}><AnalyticsPage /></ProtectedRoute>} />
             <Route path="/dashboard/my-analytics" element={<ProtectedRoute><ClientAnalyticsPage /></ProtectedRoute>} />
             <Route path="/dashboard/appointments" element={<ProtectedRoute allow={['lawyer','admin','super_admin']}><AppointmentsPage /></ProtectedRoute>} />
+            <Route path="/dashboard/my-appointments" element={<ProtectedRoute><MyAppointmentsPage /></ProtectedRoute>} />
             <Route path="/dashboard/documents" element={<ProtectedRoute><DocumentsPage /></ProtectedRoute>} />
             <Route path="/dashboard/messages" element={<ProtectedRoute><MessagesPage /></ProtectedRoute>} />
             <Route path="/admin/login" element={<AdminLoginPage />} />

@@ -820,9 +820,12 @@
     "tasks": "Tasks",
     "appointments": "Appointments",
     "notifications": "Notifications",
+    "messages": "Messages",
+    "documents": "Documents",
     "team": "Team",
     "analytics": "Analytics",
     "my_analytics": "My Analytics",
+    "my_appointments": "My Appointments",
     "settings": "Settings"
   },
   "client_analytics": {
@@ -913,6 +916,12 @@
   },
   "appointments": {
     "title": "Appointments",
+    "my_title": "My Appointments",
+    "my_subtitle": "Consultation requests you have booked",
+    "book_new": "Book appointment",
+    "my_empty_title": "No appointments yet",
+    "my_empty_desc": "Book a consultation and it will appear here.",
+    "upcoming_count": "Upcoming",
     "subtitle": "Consultation requests from clients",
     "stat_total": "Total",
     "stat_new": "New",

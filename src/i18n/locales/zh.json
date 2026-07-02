@@ -861,9 +861,12 @@
     "tasks": "任务",
     "appointments": "预约",
     "notifications": "通知",
+    "messages": "消息",
+    "documents": "文件",
     "team": "团队",
     "analytics": "分析",
     "my_analytics": "我的分析",
+    "my_appointments": "我的预约",
     "settings": "设置"
   },
   "client_analytics": {
@@ -913,6 +916,12 @@
   },
   "appointments": {
     "title": "预约",
+    "my_title": "我的预约",
+    "my_subtitle": "您已提交的咨询请求",
+    "book_new": "预约咨询",
+    "my_empty_title": "暂无预约",
+    "my_empty_desc": "预约咨询后将显示在此处。",
+    "upcoming_count": "即将到来",
     "subtitle": "客户咨询请求",
     "stat_total": "总计",
     "stat_new": "新建",

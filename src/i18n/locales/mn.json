@@ -861,9 +861,12 @@
     "tasks": "Даалгавар",
     "appointments": "Цаг товлолт",
     "notifications": "Мэдэгдэл",
+    "documents": "Баримт бичиг",
+    "messages": "Зурвас",
     "team": "Баг",
     "analytics": "Шинжилгээ",
     "my_analytics": "Миний шинжилгээ",
+    "my_appointments": "Миний цаг захиалга",
     "settings": "Тохиргоо"
   },
   "client_analytics": {
@@ -913,6 +916,12 @@
   },
   "appointments": {
     "title": "Цаг товлолт",
+    "my_title": "Миний цаг захиалга",
+    "my_subtitle": "Таны захиалсан зөвлөгөөний хүсэлтүүд",
+    "book_new": "Цаг захиалах",
+    "my_empty_title": "Одоогоор захиалга алга",
+    "my_empty_desc": "Зөвлөгөө захиалсны дараа энд харагдана.",
+    "upcoming_count": "Удахгүй болох",
     "subtitle": "Үйлчлүүлэгчдийн зөвлөгөө авах хүсэлтүүд",
     "stat_total": "Нийт",
     "stat_new": "Шинэ",

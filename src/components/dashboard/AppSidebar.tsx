@@ -32,6 +32,7 @@ const PRIMARY: NavItem[] = [
   { to: '/dashboard/documents', labelKey: 'nav_dashboard.documents', fallback: 'Documents', icon: FileText },
   { to: '/dashboard/messages', labelKey: 'nav_dashboard.messages', fallback: 'Messages', icon: MessageSquare },
   { to: '/dashboard/appointments', labelKey: 'nav_dashboard.appointments', fallback: 'Appointments', icon: CalendarClock, staffOnly: true },
+  { to: '/dashboard/my-appointments', labelKey: 'nav_dashboard.my_appointments', fallback: 'My Appointments', icon: CalendarClock, clientOnly: true },
   { to: '/dashboard/notifications', labelKey: 'nav_dashboard.notifications', fallback: 'Notifications', icon: Bell },
 ];
 

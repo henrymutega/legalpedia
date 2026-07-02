@@ -41,10 +41,11 @@ const DashboardLayout = ({ children, title, subtitle, actions }: Props) => {
             <SidebarTrigger className="text-primary-foreground hover:text-gold" />
             <Link
               to="/"
-              className="hidden md:inline-flex items-center gap-1.5 text-xs text-primary-foreground/70 hover:text-gold transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs text-primary-foreground/70 hover:text-gold transition-colors"
               aria-label={String(t('nav.home', 'Home'))}
             >
-              <Home size={14} /> {String(t('nav.home', 'Home'))}
+              <Home size={14} /> 
+              <span className="hidden md:inline">{String(t('nav.home', 'Home'))}</span>
             </Link>
             <div className="flex-1" />
             <GlobalSearch />
