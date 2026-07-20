@@ -13,16 +13,16 @@
     "contact": "Contact"
   },
   "news_research": {
-    "title": "News & Research",
+    "title": "Publications",
     "subtitle": "Insights, legal news, and research from the LegalPedia team.",
     "search_placeholder": "Search articles…",
     "featured": "Featured",
     "all": "All",
     "read_article": "Read article",
     "read_min": "{{n}} min read",
-    "docs_cta_title": "Looking for ready-to-use legal documents?",
-    "docs_cta_desc": "Browse our marketplace of professional contracts, agreements, and compliance templates.",
-    "docs_cta_btn": "Open Legal Documents"
+    "docs_cta_title": "Looking for a legal documents?",
+    "docs_cta_desc": "Browse. Professionally drafted templates for claims, contracts, policies and other legal documents.",
+    "docs_cta_btn": "Explore"
   },
   "legal_docs": {
     "title": "Legal Documents",
@@ -92,7 +92,7 @@
     "floating": {
       "ai": {
         "title": "AI Legal Assistant",
-        "desc": "Intelligent multilingual legal guidance powered by LegalPedia AI.",
+        "desc": "AI powered multilingual legal assistant.",
         "cta": "Chat With AI"
       },
       "dashboard": {
@@ -101,52 +101,52 @@
         "cta": "Access Dashboard"
       },
       "services": {
-        "title": "Legal Services & Publications",
+        "title": "Legal Services",
         "desc": "Explore legal services, contracts, and professional legal resources.",
         "cta": "Explore Services"
       }
     },
     "journey": {
       "title": "Your Legal Journey",
-      "subtitle": "A human story — from the first moment of doubt, to the quiet relief of resolution.",
+      "subtitle": "Professional legal support, tailored to your needs.",
       "cta": "Start Your Journey",
       "s1": {
-        "emotion": "Overwhelmed",
-        "title": "Confusion",
-        "desc": "A legal challenge appears — uncertainty, pressure and scattered information weigh on the mind."
+        "emotion": "Challenge",
+        "title": "Legal Issues",
+        "desc": "Are you facing a legal issue that is weighing you down?"
       },
       "s2": {
-        "emotion": "Hopeful",
-        "title": "Reaching Out",
-        "desc": "A first call to LegalPedia — the moment hope replaces hesitation."
+        "emotion": "Support",
+        "title": "Ask for help",
+        "desc": "The first step towards legalpedia."
       },
       "s3": {
-        "emotion": "Supported",
-        "title": "Legal Support",
-        "desc": "Experienced counsel listens, advises and stands beside you every step of the way."
+        "emotion": "Collaboration",
+        "title": "Legal advice",
+        "desc": "Providing professional legal advice and being with you in every matter."
       },
       "s4": {
-        "emotion": "Relieved",
-        "title": "Success",
-        "desc": "Resolution achieved. Peace of mind, restored confidence, a brighter chapter ahead."
+        "emotion": "Performance",
+        "title": "Results",
+        "desc": "Case and dispute resolution."
       }
     },
     "portal": {
       "badge": "LegalPedia Client Portal",
-      "title": "Your Legal World, In One Dashboard",
-      "subtitle": "Manage your cases, documents and communication with your legal team from a single, secure client portal — built for clarity and peace of mind.",
+      "title": "Your legal needs in one place",
+      "subtitle": "Manage and resolve your legal matters from one centralized platform.",
       "window": "LegalPedia · My Dashboard",
       "case1": "Contract Review — Acme Ltd",
       "case2": "Property Dispute Filing",
       "case3": "Employment Agreement",
-      "f1_title": "Track Every Case",
-      "f1_desc": "Follow the real-time status of all your matters in one secure place.",
-      "f2_title": "Share Documents",
-      "f2_desc": "Upload and exchange files safely with your legal team anytime.",
-      "f3_title": "Stay in Touch",
-      "f3_desc": "Message your lawyer and receive instant notifications on updates.",
-      "f4_title": "Personal Analytics",
-      "f4_desc": "Visualize your cases, activity and progress with clear insights.",
+      "f1_title": "Client dashboard",
+      "f1_desc": "Track the progress of your legal issue in real time.",
+      "f2_title": "Document sharing",
+      "f2_desc": "Secure and seamless document exchange.",
+      "f3_title": "We are always here for you",
+      "f3_desc": "Communicate with your lawyer anytime and receive timely legal advice and updates.",
+      "f4_title": "Reports and insights",
+      "f4_desc": "Access comprehensive reports, updates, and insights on your legal matters.",
       "cta": "Access Client Portal",
       "cta2": "Sign In"
     }
@@ -235,7 +235,7 @@
   },
   "services": {
     "title": "Legal Services",
-    "subtitle": "Comprehensive legal solutions tailored to your needs",
+    "subtitle": "Strategic legal advice from a team you can trust",
     "learn_more": "Learn More",
     "related": "Related Services",
     "benefits": "Key Benefits",
@@ -265,14 +265,13 @@
         "short": "Expert guidance for business formation, governance, mergers, and acquisitions.",
         "full": "Our corporate law team provides comprehensive legal support for businesses at every stage. From entity formation and corporate governance to complex mergers and acquisitions, we help organizations navigate the legal landscape with confidence.",
         "benefits": [
-          "Strategic business structuring",
-          "Risk mitigation",
-          "Regulatory compliance",
-          "M&A advisory"
+          "Investment",
+          "Business Transactions",
+          "M&A"
         ]
       },
       "litigation": {
-        "title": "Civil Litigation",
+        "title": "Minerals, licenses, Tenders",
         "short": "Aggressive representation in commercial disputes and civil proceedings.",
         "full": "When disputes arise, our litigation team is prepared to protect your interests vigorously. We handle complex commercial litigation, contract disputes, and civil proceedings with a strategic approach designed to achieve favorable outcomes.",
         "benefits": [
@@ -283,29 +282,27 @@
         ]
       },
       "ip": {
-        "title": "Intellectual Property",
+        "title": "Construction",
         "short": "Protecting your innovations, trademarks, copyrights, and trade secrets.",
         "full": "Innovation deserves protection. Our IP attorneys help clients secure and defend their intellectual property rights, including patents, trademarks, copyrights, and trade secrets across all industries.",
         "benefits": [
-          "Patent prosecution",
-          "Trademark registration",
-          "Copyright protection",
-          "IP portfolio management"
+          "Comprehensive legal consultation on FIDIC and EPC contracts",
+          "Comprehensive legal consultation on FIDIC and EPC contracts",
+          "Comprehensive legal consultation on FIDIC and EPC contracts"
         ]
       },
       "realestate": {
-        "title": "Real Estate Law",
+        "title": "Corporate law",
         "short": "Comprehensive legal services for property transactions and development.",
         "full": "Our real estate practice covers residential and commercial transactions, land use and zoning, construction law, and property disputes. We guide clients through every aspect of real estate dealings.",
         "benefits": [
-          "Transaction support",
-          "Title review",
-          "Zoning compliance",
-          "Lease negotiation"
+          "Legal risk management and compliance",
+          "Legal risk management and compliance",
+          "Legal risk management and compliance"
         ]
       },
       "family": {
-        "title": "Family Law",
+        "title": "Litigation, arbitration, and dispute",
         "short": "Compassionate counsel for divorce, custody, and family matters.",
         "full": "Family legal matters require sensitivity and expertise. Our family law attorneys provide compassionate representation in divorce, child custody, adoption, and prenuptial agreements.",
         "benefits": [
@@ -316,18 +313,17 @@
         ]
       },
       "employment": {
-        "title": "Employment Law",
+        "title": "Other",
         "short": "Protecting employer and employee rights in the workplace.",
         "full": "We advise both employers and employees on workplace legal issues including discrimination, wrongful termination, employment contracts, and regulatory compliance.",
         "benefits": [
-          "Policy development",
-          "Dispute resolution",
-          "Compliance auditing",
-          "Contract negotiation"
+          "Intellectual Property, Labor Disputes, Family Disputes...",
+          "Intellectual Property, Labor Disputes, Family Disputes...",
+          "Intellectual Property, Labor Disputes, Family Disputes..."
         ]
       }
     },
-    "all": "All Services",
+    "all": "Practices",
     "categories": "Practice Areas",
     "sub_intro": "Our {{area}} team offers dedicated, hands-on support for {{topic}}. From your first consultation to final resolution, we translate complex legal requirements into clear, practical steps so you always know where you stand and what happens next.",
     "sub_overview_title": "What this service covers",
@@ -381,7 +377,7 @@
     "chatbot_placeholder": "Our AI assistant will be available soon to answer your legal questions 24/7."
   },
   "footer": {
-    "description": "Delivering exceptional legal services with integrity, dedication, and a commitment to justice for over 20 years.",
+    "description": "",
     "quick_links": "Quick Links",
     "contact_info": "Contact Info",
     "rights": "All rights reserved."
@@ -556,7 +552,7 @@
     "verify_email": "Verify Email",
     "check_email": "Check your email",
     "verify_email_desc": "We sent you a verification link to confirm your account.",
-    "login_subtitle": "Sign in for a personalized experience",
+    "login_subtitle": "Sign in to access legal advice",
     "signup_subtitle": "Create your LegalPedia account",
     "no_account": "Don't have an account?",
     "has_account": "Already have an account?",
@@ -603,6 +599,10 @@
     "active_lawyers": "Active Lawyers",
     "unassigned": "Unassigned",
     "my_active_cases": "My Active Cases",
+    "active": "Active",
+    "by_status": "Cases by Status",
+    "by_category": "Cases by Category",
+    "last_30": "30-Day Activity",
     "unassigned_queue": "Unassigned Queue",
     "recent_uploads": "Recent Uploads",
     "recent_comments": "Recent Comments",
@@ -641,11 +641,11 @@
     "status_updated": "Status updated",
     "update_failed": "Update failed",
     "upload_document": "Upload New Document",
-    "upload_document_desc": "Start a new legal case submission",
+    "upload_document_desc": "",
     "view_my_cases": "View My Cases",
     "view_my_cases_desc": "Track status and updates",
-    "contact_team": "Contact Legal Team",
-    "contact_team_desc": "Reach out to a lawyer directly",
+    "contact_team": "Contact Lawyer",
+    "contact_team_desc": "",
     "client": "Client",
     "search_cases": "Search cases...",
     "all_statuses": "All statuses",
@@ -661,6 +661,8 @@
     "assign_to_lawyer": "Assign to lawyer…",
     "case_assigned": "Case assigned",
     "unassigned_tasks": "Unassigned Tasks"
+
+
   },
   "cases": {
     "title_label": "Title",
@@ -866,7 +868,7 @@
     "role_updated": "Role updated"
   },
   "messages_page": {
-    "title": "Messages",
+    "title": "Chat",
     "subtitle": "Recent conversations across your cases.",
     "empty": "No messages yet.",
     "user": "User",
@@ -874,7 +876,7 @@
   },
   "documents_page": {
     "title": "Documents",
-    "subtitle": "Files attached to your cases.",
+    "subtitle": "Attached Files",
     "empty": "No documents yet.",
     "case": "Case",
     "download": "Download",
@@ -975,10 +977,10 @@
     "bad": "Bad response",
     "fb_thanks": "Thanks for the feedback!",
     "fb_noted": "Noted — we will improve.",
-    "disclaimer": "AI provides general information. For official advice, consult a lawyer.",
-    "cta_title": "Need a real lawyer?",
-    "cta_desc": "Book a confidential consultation with our team.",
-    "cta_book": "Book consultation",
+    "disclaimer": "I provide general legal information only - For formal legal advice, please consult with our lawyers.",
+    "cta_title": "Need professional lawyer?",
+    "cta_desc": "Schedule a consultation?",
+    "cta_book": "Book a consultation",
     "related": "Related",
     "related_services": "Our services",
     "related_docs": "Legal publications",
