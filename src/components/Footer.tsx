@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { useSitePage } from '@/hooks/cms/useCms';
 import { useLocale } from '@/hooks/cms/useLocaleField';
 import logoWhite from '@/assets/legalpedia-logo-white.png';
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <img src={logoWhite} alt={content?.brand || 'LegalPedia'} className="h-40 w-auto mb-0" width={160} height={64} />
+            <img src={logoWhite} alt={content?.brand || 'LegalPedia'} className="h-auto w-auto mb-0" width={160} height={64} />
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               {content?.description || t('footer.description')}
             </p>
@@ -44,14 +44,14 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-lg font-semibold text-gold mb-4">{t('footer.contact_info')}</h4>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
+              {/* <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
                 {content?.address || t('contact.address')}
               </li>
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Phone size={16} className="text-gold shrink-0" />
                 {content?.phone || t('contact.phone')}
-              </li>
+              </li> */}
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail size={16} className="text-gold shrink-0" />
                 {content?.email || t('contact.email')}
