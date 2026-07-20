@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+//import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import Layout from '@/components/Layout';
 import PageHeader from '@/components/PageHeader';
 import AppointmentForm from '@/components/AppointmentForm';
@@ -36,7 +36,7 @@ const ContactPage = () => {
             </div>
 
             <div className="space-y-8 animate-fade-in-up animation-delay-200">
-              <div>
+              {/* <div>
                 <h3 className="font-heading text-2xl font-bold text-foreground mb-4">{t('contact.office_title')}</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3 text-foreground"><MapPin size={18} className="text-gold mt-0.5 shrink-0" /><span className="text-sm">{(content as any)?.address || t('contact.address')}</span></li>
@@ -44,7 +44,7 @@ const ContactPage = () => {
                   <li className="flex items-center gap-3 text-foreground"><Mail size={18} className="text-gold shrink-0" /><span className="text-sm">{(content as any)?.email || t('contact.email')}</span></li>
                   <li className="flex items-center gap-3 text-foreground"><Clock size={18} className="text-gold shrink-0" /><span className="text-sm">{(content as any)?.hours || t('contact.hours')}</span></li>
                 </ul>
-              </div>
+              </div> */}
               <div className="w-full h-48 bg-muted rounded-lg flex items-center justify-center border border-border">
                 <span className="text-muted-foreground text-sm">📍 Map</span>
               </div>

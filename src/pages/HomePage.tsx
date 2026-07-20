@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
-import WhyChooseSection from "@/components/WhyChooseSection";
+//import WhyChooseSection from "@/components/WhyChooseSection";
 import SeoHead from "@/components/cms/SeoHead";
 import FaqSection from "@/components/cms/FaqSection";
 import HeroFloatingCards from "@/components/home/HeroFloatingCards";
@@ -122,7 +122,7 @@ const HomePage = () => {
       <PracticeAreasGrid />
 
       {/* Why Choose */}
-      <WhyChooseSection />
+      {/* <WhyChooseSection /> */}
 
       {/* Cinematic, human-led Legal Journey */}
       <LegalJourneySection />
