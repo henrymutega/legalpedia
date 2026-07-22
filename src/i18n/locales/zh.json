@@ -10,7 +10,9 @@
     "legal_documents": "法律文档",
     "legal_documents_desc": "浏览、预览并购买专业法律模板。",
     "ai_assistant": "AI 助手",
-    "contact": "联系我们"
+    "contact": "联系我们",
+    "dashboard": "控制台",
+    "login": "登录"
   },
   "news_research": {
     "title": "新闻与研究",
@@ -376,6 +378,7 @@
     "address": "纽约州纽约市正义大道123号500室 10001",
     "phone": "+1 (555) 123-4567",
     "email": "info@legalpedia.com",
+    "email_2": "help@legalpedia.com",
     "hours": "周一至周五: 上午9:00 - 下午6:00",
     "chatbot_title": "AI 法律助手",
     "chatbot_placeholder": "我们的AI助手即将上线，将全天候回答您的法律问题。"
@@ -383,6 +386,7 @@
   "footer": {
     "description": "二十多年来，我们以诚信、奉献和对正义的承诺提供卓越的法律服务。",
     "quick_links": "快速链接",
+    "common_links": "常用链接",
     "contact_info": "联系信息",
     "rights": "版权所有。"
   },

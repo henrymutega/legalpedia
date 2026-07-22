@@ -10,7 +10,9 @@
     "legal_documents": "Хууль зүйн баримт",
     "legal_documents_desc": "Бэлэн хууль зүйн загвар, гэрээ үзэх, худалдан авах.",
     "ai_assistant": "AI Туслах",
-    "contact": "Холбоо барих"
+    "contact": "Холбоо барих",
+    "dashboard": "Хяналтын самбар",
+    "login": "Нэвтрэх"
   },
   "news_research": {
     "title": "Нийтлэлүүд",
@@ -372,6 +374,7 @@
     "address": "Нью-Йорк хот, Шударга ёсны гудамж 123, 500 тоот, NY 10001",
     "phone": "+1 (555) 123-4567",
     "email": "info@legalpedia.com",
+    "email_2": "help@legalpedia.com",
     "hours": "Даваа-Баасан: 09:00 - 18:00",
     "chatbot_title": "AI Хууль зүйн туслах",
     "chatbot_placeholder": "Манай AI туслах удахгүй таны хууль зүйн асуултанд 24/7 хариулахад бэлэн болно."
@@ -379,6 +382,7 @@
   "footer": {
     "description": "",
     "quick_links": "Шуурхай холбоосууд",
+    "common_links": "Нийтлэг холбоосууд",
     "contact_info": "Холбоо барих мэдээлэл",
     "rights": "Бүх эрх хуулиар хамгаалагдсан."
   },

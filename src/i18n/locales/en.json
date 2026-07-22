@@ -10,7 +10,9 @@
     "legal_documents": "Legal Documents",
     "legal_documents_desc": "Browse, preview and purchase ready-to-use legal templates.",
     "ai_assistant": "AI Assistant",
-    "contact": "Contact"
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Login"
   },
   "news_research": {
     "title": "Publications",
@@ -372,6 +374,7 @@
     "address": "123 Justice Avenue, Suite 500, New York, NY 10001",
     "phone": "+1 (555) 123-4567",
     "email": "info@legalpedia.com",
+    "email_2": "help@legalpedia.com",
     "hours": "Mon-Fri: 9:00 AM - 6:00 PM",
     "chatbot_title": "AI Legal Assistant",
     "chatbot_placeholder": "Our AI assistant will be available soon to answer your legal questions 24/7."
@@ -379,6 +382,7 @@
   "footer": {
     "description": "",
     "quick_links": "Quick Links",
+    "common_links": "Common Links",
     "contact_info": "Contact Info",
     "rights": "All rights reserved."
   },
