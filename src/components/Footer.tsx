@@ -19,10 +19,17 @@ const Footer = () => {
     { path: '/contact', label: t('nav.contact') },
   ];
 
+   const checks = [
+    { path: '/ai-assistant', label: t('nav.ai_assistant') },
+    { path: '/legal-documents', label: t('nav.legal_documents') },
+    { path: '/news-research', label: t('nav.news_research') },
+    { path: '/login', label: t('cases.dashboard') },
+  ];
+
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <img src={logoWhite} alt={content?.brand || 'LegalPedia'} className="h-auto w-auto mb-0" width={160} height={64} />
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
@@ -31,11 +38,22 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-heading text-lg font-semibold text-gold mb-4">{t('footer.quick_links')}</h4>
+            <h4 className="font-heading text-md font-semibold text-gold mb-4">{t('footer.quick_links')}</h4>
             <ul className="space-y-2">
               {links.map((link) => (
                 <li key={link.path}>
                   <Link to={link.path} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-heading text-lg font-semibold text-gold mb-4">{t('footer.common_links')}</h4>
+            <ul className="space-y-2">
+              {checks.map((check) => (
+                <li key={check.path}>
+                  <Link to={check.path} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">{check.label}</Link>
                 </li>
               ))}
             </ul>
@@ -55,6 +73,10 @@ const Footer = () => {
               <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
                 <Mail size={16} className="text-gold shrink-0" />
                 {content?.email || t('contact.email')}
+              </li>
+                <li className="flex items-center gap-3 text-sm text-primary-foreground/70">
+                <Mail size={16} className="text-gold shrink-0" />
+                {content?.email_2 || t('contact.email_2')}
               </li>
             </ul>
           </div>
