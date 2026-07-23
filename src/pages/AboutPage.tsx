@@ -8,8 +8,8 @@ import { useTeam, useSitePage } from '@/hooks/cms/useCms';
 import { useLocaleField, pickLocale, useLocale } from '@/hooks/cms/useLocaleField';
 import headerImage from '@/assets/header-about.jpg';
 import team1 from '@/assets/team-1.jpg';
-import team2 from '@/assets/team-2.jpg';
-import team3 from '@/assets/team-3.jpg';
+import team2 from '@/assets/team-3.jpg';
+import team3 from '@/assets/team-baadai.jpg';
 import team4 from '@/assets/team-4.jpg';
 
 const fallbackTeamImages = [team1, team2, team3, team4];
@@ -78,7 +78,9 @@ const AboutPage = () => {
                 {(story as any)?.story_title || t('about.story_title')}
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">{(story as any)?.story || t('about.story')}</p>
-              <p className="text-muted-foreground leading-relaxed">{(story as any)?.story_2 || t('about.story_2')}</p>
+              <p className="text-muted-foreground leading-relaxed mb-4">{(story as any)?.story_2 || t('about.story_2')}</p>
+              <p className="text-muted-foreground leading-relaxed mb-4">{(story as any)?.story_2 || t('about.story_3')}</p>
+              <p className="text-muted-foreground leading-relaxed">{(story as any)?.story_2 || t('about.story_4')}</p>
             </div>
             <div className="flex justify-center"><Scale size={120} className="text-gold/30" /></div>
           </div>

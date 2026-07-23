@@ -156,31 +156,33 @@
   "about": {
     "title": "About LegalPedia",
     "story_title": "Our Story",
-    "story": "LegalPedia was founded on a simple but powerful belief: that every client deserves honest, dedicated, and results-driven legal representation. What began as a small practice driven by integrity has grown steadily into a trusted name in the legal community.",
-    "story_2": "Over the years, we have earned the confidence of individuals and businesses alike — not through grand promises, but through consistent results, transparent communication, and a genuine commitment to our clients' well-being.",
+    "story": "LegalPedia was founded in 2015 by final-year students of the School of Law at the National University of Mongolia, with the aim of creating a digital repository of legal research and academic publications. This initiative marked the beginning of a long-term vision to develop a modern legal practice grounded in research, professional expertise, and accessibility.",
+    "story_2": "From 2018 to 2019, the founders obtained their professional legal qualifications and built extensive experience as lawyers and senior legal counsel within leading Mongolian business groups, banks, financial institutions, and legal practices. In 2023, they established LegalPedia Law Firm LLC and formally commenced the provision of legal advisory and representation services.",
+    "story_3": "In 2026, LegalPedia renewed its structure and strategic direction, expanding its practice through the development of an AI-powered legal platform. The firm now seeks to provide accessible, practical, and results-driven legal services to startups, small and medium-sized enterprises, and foreign investors.",
+    "story_4": "Today, drawing on more than a decade of experience across Mongolia’s leading companies, banking and finance institutions, and legal practice, our founders provide comprehensive legal advisory and representation services to domestic and international clients operating in infrastructure, construction, mining, natural resources, and investment.",
     "mission_title": "Our Mission",
-    "mission": "To deliver the highest quality legal services while maintaining the trust, integrity, and personal attention that our clients deserve.",
+    "mission": "To deliver research-driven, commercially focused legal solutions by combining professional expertise with modern technology, helping our clients navigate complex legal matters with clarity and confidence.",
     "vision_title": "Our Vision",
-    "vision": "To be the leading legal platform recognized for legal innovation, client satisfaction, and community impact.",
+    "vision": "To become a trusted, forward-looking legal partner that advances the accessibility, quality, and delivery of legal services in Mongolia.",
     "team_title": "Our Legal Team",
     "timeline_title": "Our Growth Journey",
     "values_title": "Our Values",
     "values": [
       {
         "title": "Integrity",
-        "desc": "We uphold honesty and transparency in all legal matters."
+        "desc": "We act with honesty, transparency, and professional integrity in every matter entrusted to us."
       },
       {
         "title": "Confidentiality",
-        "desc": "Your information is handled with strict privacy and care."
+        "desc": "We safeguard our clients’ information with the highest level of discretion, care, and professional responsibility."
       },
       {
         "title": "Professional Excellence",
-        "desc": "We deliver high-quality legal services with precision."
+        "desc": "We deliver precise, research-driven, and commercially focused legal solutions to the highest professional standards."
       },
       {
         "title": "Client Commitment",
-        "desc": "We prioritize our clients' needs and outcomes."
+        "desc": "We place our clients’ interests at the center of our practice and remain committed to achieving practical, sustainable outcomes."
       }
     ],
     "audience_title": "Who We Serve",
@@ -196,42 +198,33 @@
       {
         "title": "Startups",
         "desc": "Legal support for growing ventures."
-      },
-      {
-        "title": "Property Clients",
-        "desc": "Real estate and property law services."
       }
     ],
     "timeline": [
       {
         "year": "2015",
-        "title": "Foundation",
-        "desc": "LegalPedia was established with a vision to provide accessible, high-quality legal services."
+        "title": "The Beginning",
+        "desc": "LegalPedia began as a student-led initiative at the School of Law, National University of Mongolia, with a vision to create a digital repository for legal research and academic publications."
       },
       {
-        "year": "2017",
-        "title": "Building Trust",
-        "desc": "Expanded our client base through consistent results and word-of-mouth referrals."
-      },
-      {
-        "year": "2019",
-        "title": "Service Expansion",
-        "desc": "Added intellectual property and employment law to our practice areas."
-      },
-      {
-        "year": "2021",
-        "title": "Digital Transformation",
-        "desc": "Launched digital client services and AI-powered legal assistance."
+        "year": "2018 - 2019",
+        "title": "Building Professional Expertise",
+        "desc": "Our founders obtained their professional legal qualifications and began developing their careers as lawyers and senior legal counsel within leading Mongolian business groups, banks, and financial institutions."
       },
       {
         "year": "2023",
-        "title": "Regional Recognition",
-        "desc": "Recognized as one of the region's most trusted legal institutions."
+        "title": "Establishment of the Law Firm",
+        "desc": "LegalPedia Law Firm LLC was formally established, marking the transition from a legal knowledge initiative into a professional legal advisory and representation practice."
       },
       {
         "year": "2026",
-        "title": "Present Day",
-        "desc": "Continuing to grow with a dedicated team serving clients across multiple practice areas."
+        "title": "Innovation and Strategic Growth",
+        "desc": "LegalPedia renewed its structure and strategic direction, combining professional legal expertise with modern technology through the development of an AI-powered legal platform."
+      },
+      {
+        "year": "Today",
+        "title": "Trusted Legal Partnership",
+        "desc": "Drawing on more than a decade of professional experience, we advise domestic and international clients across infrastructure, construction, mining, natural resources, investment, banking, and finance."
       }
     ]
   },
@@ -325,7 +318,7 @@
         ]
       }
     },
-    "all": "Practices",
+    "all": "All Practices",
     "categories": "Practice Areas",
     "sub_intro": "Our {{area}} team offers dedicated, hands-on support for {{topic}}. From your first consultation to final resolution, we translate complex legal requirements into clear, practical steps so you always know where you stand and what happens next.",
     "sub_overview_title": "What this service covers",
